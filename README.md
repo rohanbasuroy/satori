@@ -1,2 +1,2 @@
 # Satori
-The implementation will be updates soon.
+The implementation will be updated soon.
