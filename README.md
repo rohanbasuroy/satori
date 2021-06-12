@@ -19,21 +19,16 @@ It uses the Linux utility *perf* for Intructions per second (IPS) monitoring of 
 ## Run SATORI
 
 In the script *satori.py*, input the following in the main function:</br>
-(1) 
 ```
 applications:
 
 ```
 Give the name of the applications you want to co-locate. We evaluated SATORI on Parsec benchmark suite. </br>
-
-(2)
 ```
 isolated_ips:
 
 ```
 Run the applications without co-location once and input their mean IPS. </br>
-
-(3)
 ```
 NUM_UNITS:
 
