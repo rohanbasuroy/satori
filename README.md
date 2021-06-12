@@ -23,7 +23,7 @@ In the script *satori.py*, input the following in the main function:</br>
 applications:
 
 ```
-Give the name of the applications you want to co-locate. We evaluated SATORI on Parsec benchmark suite. </br>
+Give the name of the applications you want to co-locate. We evaluated SATORI on [Parsec benchmark suite](https://parsec.cs.princeton.edu/parsec3-doc.htm). </br>
 ```
 isolated_ips:
 
