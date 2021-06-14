@@ -10,7 +10,7 @@ SATORI is tested on a  Ubuntu Server 20.04 LTS using Python3.6. Please install t
 ```
 pip3 install scipy  
 pip3 install scikit-optimize  
-apt-get install linux-tools-common linux-tools-generic linux-tools-`uname -r` </br>
+apt-get install linux-tools-common linux-tools-generic linux-tools-`uname -r` 
 
 ```
 It uses the Linux utility *perf* for Intructions per second (IPS) monitoring of the individual applications. Ensure that *Intel CAT* (for last level cache partitioning), *MBA* (for memory bandwidth partitioning), and *taskset* (for compute core partitioning) tools are supported and active in your system.</br>
