@@ -37,7 +37,7 @@ Input the number of partitioning units of compute cores, last level cache ways a
 
 According to your choice, you can also set the different time parameters: *time_prioritization* (prioritization time period), *time_equalization* (equalization time period), *time_sampling* (sampling time between two evaluations), *time_total* (total time to carry out the optimization), and *time_lag* (time between the launch of the applications and the start of the optimization). You can also set the variable *dataset* to your choice of input data. You can also set the different parameters of the Bayesian Optimizer (BO) engine. </br>
 
-To run use: ``` sudo python3 satori.py ``` </br>
+To run use: ``` sudo python3 ./setup/satori.py ``` </br>
 
 The script *ips_collector.sh* is used to collect the IPS of the co-located applications.
  
