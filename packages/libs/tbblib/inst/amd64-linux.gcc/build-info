@@ -1,0 +1,40 @@
+PARSEC Compile Information
+==========================
+Package 'parsec.tbblib'
+Built on Wed Nov 13 16:20:58 EST 2019
+
+Configure arguments:  --prefix=/home/rohan/uforea/parsec-3.0/pkgs/libs/tbblib/inst/amd64-linux.gcc
+
+Environment modifications: compiler=gcc PATH="/usr/bin:/home/rohan/uforea/parsec-3.0/bin:/home/rohan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/rohan/uforea/parsec-3.0/bin" CXXFLAGS="-O3 -g -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=3.0-beta-20150206 -fexceptions"
+
+CC: /usr/bin/gcc
+Version: gcc (Ubuntu 7.4.0-1ubuntu1~18.04.1) 7.4.0
+Copyright (C) 2017 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+CFLAGS:  -O3 -g -funroll-loops -fprefetch-loop-arrays -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=3.0-beta-20150206
+
+CXX: /usr/bin/g++
+Version: g++ (Ubuntu 7.4.0-1ubuntu1~18.04.1) 7.4.0
+Copyright (C) 2017 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+CXXFLAGS: -O3 -g -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=3.0-beta-20150206
+
+CCAS: 
+Version: 
+CCASFLAGS: 
+
+LD: /usr/bin/ld
+Version: GNU ld (GNU Binutils for Ubuntu) 2.30
+Copyright (C) 2018 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) a later version.
+This program has absolutely no warranty.
+LDFLAGS: -L/usr/lib64 -L/usr/lib
+
+JAVAC: /usr/bin/javac
+Version: javac 11.0.4
+JFLAGS: 
+
+[EOF]

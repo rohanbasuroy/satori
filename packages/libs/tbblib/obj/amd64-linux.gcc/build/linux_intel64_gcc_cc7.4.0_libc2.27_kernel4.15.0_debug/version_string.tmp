@@ -1,0 +1,11 @@
+#define __TBB_VERSION_STRINGS \
+"TBB: BUILD_HOST		scalable (x86_64)" ENDL \
+"TBB: BUILD_OS		Ubuntu 18.04.3 LTS" ENDL \
+"TBB: BUILD_KERNEL	Linux 4.15.0-65-generic #74-Ubuntu SMP Tue Sep 17 17:06:04 UTC 2019" ENDL \
+"TBB: BUILD_GCC		Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.4.0-1ubuntu1~18.04.1' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04.1) " ENDL \
+"TBB: BUILD_GLIBC	2.27" ENDL \
+"TBB: BUILD_LD		" ENDL \
+"TBB: BUILD_TARGET	intel64 on cc7.4.0_libc2.27_kernel4.15.0" ENDL \
+"TBB: BUILD_COMMAND	g++ -DTBB_USE_DEBUG -DDO_ITT_NOTIFY -g -O0 -DUSE_PTHREAD -m64 -fPIC -D__TBB_BUILD=1 -Wall -Wno-parentheses -Wno-non-virtual-dtor -O3 -g -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=3.0-beta-20150206 -fexceptions -I../../src -I../../src/rml/include -I../../include" ENDL \
+
+#define __TBB_DATETIME "Wed Nov 13 21:20:38 UTC 2019"

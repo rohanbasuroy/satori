@@ -1,0 +1,156 @@
+gvariant.lo: \
+ /home/rohan/uforea/parsec-3.0/pkgs/libs/glib/src/glib/gvariant.c \
+ /usr/include/stdc-predef.h ../config.h \
+ /home/rohan/uforea/parsec-3.0/pkgs/libs/glib/src/glib/gvariant-serialiser.h \
+ /home/rohan/uforea/parsec-3.0/pkgs/libs/glib/src/glib/gvarianttypeinfo.h \
+ /home/rohan/uforea/parsec-3.0/pkgs/libs/glib/src/glib/gvarianttype.h \
+ /home/rohan/uforea/parsec-3.0/pkgs/libs/glib/src/glib/gmessages.h \
+ /usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h \
+ /home/rohan/uforea/parsec-3.0/pkgs/libs/glib/src/glib/gtypes.h \
+ ../glibconfig.h \
+ /home/rohan/uforea/parsec-3.0/pkgs/libs/glib/src/glib/gmacros.h \
+ /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h \
+ /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/syslimits.h \
+ /usr/include/limits.h \
+ /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+ /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/bits/long-double.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+ /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+ /usr/lib/gcc/x86_64-linux-gnu/7/include/float.h \
+ /home/rohan/uforea/parsec-3.0/pkgs/libs/glib/src/glib/gvariant-internal.h \
+ /home/rohan/uforea/parsec-3.0/pkgs/libs/glib/src/glib/gvariant-serialiser.h \
+ /home/rohan/uforea/parsec-3.0/pkgs/libs/glib/src/glib/gvariant-core.h \
+ /home/rohan/uforea/parsec-3.0/pkgs/libs/glib/src/glib/gvarianttypeinfo.h \
+ /home/rohan/uforea/parsec-3.0/pkgs/libs/glib/src/glib/gvariant.h \
+ /home/rohan/uforea/parsec-3.0/pkgs/libs/glib/src/glib/gstring.h \
+ /home/rohan/uforea/parsec-3.0/pkgs/libs/glib/src/glib/gunicode.h \
+ /home/rohan/uforea/parsec-3.0/pkgs/libs/glib/src/glib/gerror.h \
+ /home/rohan/uforea/parsec-3.0/pkgs/libs/glib/src/glib/gquark.h \
+ /home/rohan/uforea/parsec-3.0/pkgs/libs/glib/src/glib/gutils.h \
+ /home/rohan/uforea/parsec-3.0/pkgs/libs/glib/src/glib/gbuffer.h \
+ /home/rohan/uforea/parsec-3.0/pkgs/libs/glib/src/glib/gtestutils.h \
+ /home/rohan/uforea/parsec-3.0/pkgs/libs/glib/src/glib/gslist.h \
+ /home/rohan/uforea/parsec-3.0/pkgs/libs/glib/src/glib/gmem.h \
+ /home/rohan/uforea/parsec-3.0/pkgs/libs/glib/src/glib/gslice.h \
+ /home/rohan/uforea/parsec-3.0/pkgs/libs/glib/src/glib/gstrfuncs.h \
+ /home/rohan/uforea/parsec-3.0/pkgs/libs/glib/src/glib/ghash.h \
+ /home/rohan/uforea/parsec-3.0/pkgs/libs/glib/src/glib/glist.h \
+ /usr/include/string.h \
+ /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+ /usr/include/strings.h \
+ /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+ /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+ /home/rohan/uforea/parsec-3.0/pkgs/libs/glib/src/glib/galias.h \
+ /home/rohan/uforea/parsec-3.0/pkgs/libs/glib/src/glib/galiasdef.c
+
+/usr/include/stdc-predef.h:
+
+../config.h:
+
+/home/rohan/uforea/parsec-3.0/pkgs/libs/glib/src/glib/gvariant-serialiser.h:
+
+/home/rohan/uforea/parsec-3.0/pkgs/libs/glib/src/glib/gvarianttypeinfo.h:
+
+/home/rohan/uforea/parsec-3.0/pkgs/libs/glib/src/glib/gvarianttype.h:
+
+/home/rohan/uforea/parsec-3.0/pkgs/libs/glib/src/glib/gmessages.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h:
+
+/home/rohan/uforea/parsec-3.0/pkgs/libs/glib/src/glib/gtypes.h:
+
+../glibconfig.h:
+
+/home/rohan/uforea/parsec-3.0/pkgs/libs/glib/src/glib/gmacros.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/limits.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+
+/usr/include/features.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/7/include/float.h:
+
+/home/rohan/uforea/parsec-3.0/pkgs/libs/glib/src/glib/gvariant-internal.h:
+
+/home/rohan/uforea/parsec-3.0/pkgs/libs/glib/src/glib/gvariant-serialiser.h:
+
+/home/rohan/uforea/parsec-3.0/pkgs/libs/glib/src/glib/gvariant-core.h:
+
+/home/rohan/uforea/parsec-3.0/pkgs/libs/glib/src/glib/gvarianttypeinfo.h:
+
+/home/rohan/uforea/parsec-3.0/pkgs/libs/glib/src/glib/gvariant.h:
+
+/home/rohan/uforea/parsec-3.0/pkgs/libs/glib/src/glib/gstring.h:
+
+/home/rohan/uforea/parsec-3.0/pkgs/libs/glib/src/glib/gunicode.h:
+
+/home/rohan/uforea/parsec-3.0/pkgs/libs/glib/src/glib/gerror.h:
+
+/home/rohan/uforea/parsec-3.0/pkgs/libs/glib/src/glib/gquark.h:
+
+/home/rohan/uforea/parsec-3.0/pkgs/libs/glib/src/glib/gutils.h:
+
+/home/rohan/uforea/parsec-3.0/pkgs/libs/glib/src/glib/gbuffer.h:
+
+/home/rohan/uforea/parsec-3.0/pkgs/libs/glib/src/glib/gtestutils.h:
+
+/home/rohan/uforea/parsec-3.0/pkgs/libs/glib/src/glib/gslist.h:
+
+/home/rohan/uforea/parsec-3.0/pkgs/libs/glib/src/glib/gmem.h:
+
+/home/rohan/uforea/parsec-3.0/pkgs/libs/glib/src/glib/gslice.h:
+
+/home/rohan/uforea/parsec-3.0/pkgs/libs/glib/src/glib/gstrfuncs.h:
+
+/home/rohan/uforea/parsec-3.0/pkgs/libs/glib/src/glib/ghash.h:
+
+/home/rohan/uforea/parsec-3.0/pkgs/libs/glib/src/glib/glist.h:
+
+/usr/include/string.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+
+/usr/include/strings.h:
+
+/usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
+
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:
+
+/home/rohan/uforea/parsec-3.0/pkgs/libs/glib/src/glib/galias.h:
+
+/home/rohan/uforea/parsec-3.0/pkgs/libs/glib/src/glib/galiasdef.c:
