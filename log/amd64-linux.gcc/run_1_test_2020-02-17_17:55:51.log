@@ -1,0 +1,54 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+Number of particles: 4800
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/kernels/canneal/inst/amd64-linux.gcc/bin/canneal 1 5 100 10.nets 1':
+[PARSEC] Run with amd64-linux.gcc binaries and input test started on Mon Feb 17 17:55:51 EST 2020.
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] Benchmarks to run:  parsec.canneal
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Threadcount: 1
+5 swaps per temperature step
+start temperature: 100
+netlist filename: 10.nets
+number of temperature steps: 1
+locs created
+locs assigned
+netlist created. 10 elements.
+Final routing is: 132
+
+real	0m0.004s
+user	0m0.005s
+sys	0m0.000s
+
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] [========== Running benchmark parsec.canneal [1] ==========]
+Saving file "out.fluid"...
+[PARSEC] Done.
+[PARSEC] Deleting old run directory.
+
+real	0m0.051s
+user	0m0.036s
+sys	0m0.016s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Setting up run directory.
+[PARSEC] Done.
+[PARSEC] Unpacking benchmark input 'test'.
+10.nets
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/kernels/canneal/inst/amd64-linux.gcc/bin/canneal 1 5 100 10.nets 1':
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Threadcount: 1
+5 swaps per temperature step
+start temperature: 100
+netlist filename: 10.nets
+number of temperature steps: 1
+locs created
+locs assigned
+netlist created. 10 elements.
+Final routing is: 132
+
+real	0m0.005s
+user	0m0.004s
+sys	0m0.001s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

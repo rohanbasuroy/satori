@@ -1,0 +1,28 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+[PARSEC] Run with amd64-linux.gcc binaries and input native started on Wed Jun 2 14:45:06 EDT 2021.
+[PARSEC] Benchmarks to run:  parsec.streamcluster
+
+[PARSEC] [========== Running benchmark parsec.streamcluster [1] ==========]
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] No archive for input 'native' available, skipping input setup.
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/kernels/streamcluster/inst/amd64-linux.gcc/bin/streamcluster 10 20 128 1000000 200000 5000 none output.txt 1':
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+read 200000 points
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'native'.
+orion_18000x18000.v
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/vips/inst/amd64-linux.gcc/bin/vips im_benchmark orion_18000x18000.v output.v':
+[PARSEC] [---------- Beginning of output ----------]
+/home/rohan/uforea/parsec-3.0/bin/parsecmgmt: line 1222: 27809 Terminated              /home/rohan/uforea/parsec-3.0/pkgs/apps/vips/inst/amd64-linux.gcc/bin/vips im_benchmark orion_18000x18000.v output.v
+
+real	0m59.232s
+user	1m0.287s
+sys	0m0.731s
+/home/rohan/uforea/parsec-3.0/bin/parsecmgmt: line 1222: 27792 Terminated              /home/rohan/uforea/parsec-3.0/pkgs/kernels/streamcluster/inst/amd64-linux.gcc/bin/streamcluster 10 20 128 1000000 200000 5000 none output.txt 1
+
+real	1m3.958s
+user	1m3.873s
+sys	0m0.068s

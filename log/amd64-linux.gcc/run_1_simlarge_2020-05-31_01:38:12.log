@@ -1,0 +1,26 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+[PARSEC] Run with amd64-linux.gcc binaries and input simlarge started on Sun May 31 01:38:12 EDT 2020.
+[PARSEC] Benchmarks to run:  parsec.vips
+
+[PARSEC] [========== Running benchmark parsec.vips [1] ==========]
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+Number of particles: 305809
+[PARSEC] Unpacking benchmark input 'simlarge'.
+bigben_2662x5500.v
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/vips/inst/amd64-linux.gcc/bin/vips im_benchmark bigben_2662x5500.v output.v':
+[PARSEC] [---------- Beginning of output ----------]
+Saving file "out.fluid"...
+
+real	0m3.047s
+user	0m1.240s
+sys	0m0.124s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+
+real	0m7.552s
+user	0m3.659s
+sys	0m0.103s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

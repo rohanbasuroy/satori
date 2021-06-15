@@ -1,0 +1,75 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+[PARSEC] Benchmarks to run:  parsec.freqmine
+[PARSEC] Benchmarks to run:  parsec.streamcluster
+
+[PARSEC] Run with amd64-linux.gcc binaries and input simlarge started on Mon Jun 1 06:47:19 EDT 2020.
+
+[PARSEC] [========== Running benchmark parsec.freqmine [1] ==========]
+[PARSEC] Benchmarks to run:  parsec.streamcluster
+[PARSEC] [========== Running benchmark parsec.streamcluster [1] ==========]
+
+[PARSEC] Deleting old run directory.
+[PARSEC] [========== Running benchmark parsec.streamcluster [1] ==========]
+[PARSEC] Deleting old run directory.
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] No archive for input 'simlarge' available, skipping input setup.
+[PARSEC] Unpacking benchmark input 'simlarge'.
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/kernels/streamcluster/inst/amd64-linux.gcc/bin/streamcluster 10 20 128 16384 16384 1000 none output.txt 1':
+[PARSEC] No archive for input 'simlarge' available, skipping input setup.
+[PARSEC] [---------- Beginning of output ----------]
+kosarak_990k.dat
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/kernels/streamcluster/inst/amd64-linux.gcc/bin/streamcluster 10 20 128 16384 16384 1000 none output.txt 1':
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+read 16384 points
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/freqmine/inst/amd64-linux.gcc/bin/freqmine kosarak_990k.dat 790':
+[PARSEC] [---------- Beginning of output ----------]
+read 16384 points
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+transaction number is 990002
+1548
+13483
+46649
+131381
+415489
+1239344
+2985564
+5696308
+8709873
+10789491
+10902648
+9011183
+6094236
+3374161
+1530954
+564958
+165173
+36535
+5727
+578
+33
+1
+the data preparation cost 0.659116 seconds, the FPgrowth cost 8.158317 seconds
+
+real	0m8.833s
+user	0m5.277s
+sys	0m0.068s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+
+real	0m15.158s
+user	0m7.264s
+sys	0m0.000s
+
+real	0m15.188s
+user	0m7.282s
+sys	0m0.004s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+[PARSEC] Done.

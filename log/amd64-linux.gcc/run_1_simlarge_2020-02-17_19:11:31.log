@@ -1,0 +1,29 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/vips/inst/amd64-linux.gcc/bin/vips im_benchmark bigben_2662x5500.v output.v':
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] Run with amd64-linux.gcc binaries and input simlarge started on Mon Feb 17 19:11:31 EST 2020.
+[PARSEC] Benchmarks to run:  parsec.streamcluster
+format_for_file: file "bigben_2662x5500.v" not found
+
+real	0m0.005s
+user	0m0.000s
+sys	0m0.003s
+
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] [========== Running benchmark parsec.streamcluster [1] ==========]
+[PARSEC] Done.
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] No archive for input 'simlarge' available, skipping input setup.
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/kernels/streamcluster/inst/amd64-linux.gcc/bin/streamcluster 10 20 128 16384 16384 1000 none output.txt 1':
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+read 16384 points
+error opening output.txt
+
+real	0m20.468s
+user	0m20.341s
+sys	0m0.020s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

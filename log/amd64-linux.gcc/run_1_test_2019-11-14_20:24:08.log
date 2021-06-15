@@ -1,0 +1,62 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+[PARSEC] Setting up run directory.
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/kernels/streamcluster/inst/amd64-linux.gcc/bin/streamcluster 2 5 1 10 10 5 none output.txt 1':
+[PARSEC] Run with amd64-linux.gcc binaries and input test started on Thu Nov 14 20:24:08 EST 2019.
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] Unpacking benchmark input 'test'.
+[PARSEC] Benchmarks to run:  parsec.blackscholes
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+read 10 points
+
+real	0m0.003s
+user	0m0.003s
+sys	0m0.000s
+
+[PARSEC] [----------    End of output    ----------]
+T10I4D100K_3.dat
+[PARSEC] [========== Running benchmark parsec.blackscholes [1] ==========]
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/freqmine/inst/amd64-linux.gcc/bin/freqmine T10I4D100K_3.dat 1':
+[PARSEC] Done.
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] Deleting old run directory.
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'test'.
+transaction number is 3
+32
+192
+736
+2100
+4676
+8246
+11568
+12916
+11450
+8009
+4368
+1820
+560
+120
+16
+1
+the data preparation cost 0.007804 seconds, the FPgrowth cost 0.003142 seconds
+
+real	0m0.014s
+user	0m0.011s
+sys	0m0.003s
+in_4.txt
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/blackscholes/inst/amd64-linux.gcc/bin/blackscholes 1 in_4.txt prices.txt':
+[PARSEC] Done.
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Num of Options: 4
+Num of Runs: 100
+Size of data: 160
+
+real	0m0.002s
+user	0m0.002s
+sys	0m0.000s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

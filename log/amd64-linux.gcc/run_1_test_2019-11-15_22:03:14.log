@@ -1,0 +1,34 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Loading file "in_5K.fluid"...
+Number of cells: 4725
+Grids steps over x, y, z: 0.00866667 0.00857143 0.00866667
+[PARSEC] Run with amd64-linux.gcc binaries and input test started on Fri Nov 15 22:03:14 EST 2019.
+[PARSEC] Benchmarks to run:  parsec.blackscholes
+
+Number of particles: 4800
+[PARSEC] [========== Running benchmark parsec.blackscholes [1] ==========]
+[PARSEC] Deleting old run directory.
+Saving file "out.fluid"...
+[PARSEC] Setting up run directory.
+
+real	0m0.023s
+user	0m0.016s
+sys	0m0.008s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Unpacking benchmark input 'test'.
+[PARSEC] Done.
+in_4.txt
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/blackscholes/inst/amd64-linux.gcc/bin/blackscholes 1 in_4.txt prices.txt':
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Num of Options: 4
+Num of Runs: 100
+Size of data: 160
+
+real	0m0.002s
+user	0m0.002s
+sys	0m0.000s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

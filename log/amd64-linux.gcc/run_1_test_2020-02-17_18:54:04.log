@@ -1,0 +1,34 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+
+[PARSEC] Run with amd64-linux.gcc binaries and input test started on Mon Feb 17 18:54:04 EST 2020.
+[PARSEC] [========== Running benchmark parsec.vips [1] ==========]
+[PARSEC] Benchmarks to run:  parsec.swaptions
+
+[PARSEC] Deleting old run directory.
+[PARSEC] [========== Running benchmark parsec.swaptions [1] ==========]
+[PARSEC] Setting up run directory.
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'test'.
+barbados_256x288.v
+[PARSEC] No archive for input 'test' available, skipping input setup.
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/vips/inst/amd64-linux.gcc/bin/vips im_benchmark barbados_256x288.v output.v':
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/swaptions/inst/amd64-linux.gcc/bin/swaptions -ns 1 -sm 5 -nt 1':
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Swaption 0: [SwaptionPrice: 22.0700566558 StdError: -nan] 
+Number of Simulations: 5,  Number of threads: 1 Number of swaptions: 1
+
+real	0m0.011s
+user	0m0.004s
+sys	0m0.004s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+
+real	0m0.090s
+user	0m0.066s
+sys	0m0.012s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

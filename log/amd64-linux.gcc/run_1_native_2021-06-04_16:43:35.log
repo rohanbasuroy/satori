@@ -1,0 +1,39 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+[PARSEC] Run with amd64-linux.gcc binaries and input native started on Fri Jun 4 16:43:35 EDT 2021.
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'native'.
+[PARSEC] Benchmarks to run:  parsec.streamcluster
+[PARSEC] Unpacking benchmark input 'native'.
+
+orion_18000x18000.v
+[PARSEC] [========== Running benchmark parsec.streamcluster [1] ==========]
+in_500K.fluid
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] No archive for input 'native' available, skipping input setup.
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/kernels/streamcluster/inst/amd64-linux.gcc/bin/streamcluster 10 20 128 1000000 200000 5000 none output.txt 1':
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'native'.
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/fluidanimate/inst/amd64-linux.gcc/bin/fluidanimate 1 500 in_500K.fluid out.fluid':
+[PARSEC] [---------- Beginning of output ----------]
+webdocs_250k.dat
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Loading file "in_500K.fluid"...
+Number of cells: 229900
+Grids steps over x, y, z: 0.00236364 0.00236842 0.00236364
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'native'.
+in_10M.txt
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/freqmine/inst/amd64-linux.gcc/bin/freqmine webdocs_250k.dat 11000':
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+read 200000 points
+Number of particles: 501642
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/blackscholes/inst/amd64-linux.gcc/bin/blackscholes 1 in_10M.txt prices.txt':
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/vips/inst/amd64-linux.gcc/bin/vips im_benchmark orion_18000x18000.v output.v':
+[PARSEC] [---------- Beginning of output ----------]

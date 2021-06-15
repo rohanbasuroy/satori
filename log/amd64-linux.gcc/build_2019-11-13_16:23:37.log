@@ -1,0 +1,21 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 BUILD LOGFILE ==========]
+
+[PARSEC] Build amd64-linux.gcc started on Wed Nov 13 16:23:37 EST 2019.
+[PARSEC] Packages to build:  parsec.canneal
+
+[PARSEC] [========== Building package parsec.canneal [1] ==========]
+[PARSEC] [---------- Analyzing package parsec.canneal ----------]
+[PARSEC] parsec.canneal does not depend on any other packages.
+[PARSEC] [---------- Building package parsec.canneal ----------]
+[PARSEC] Copying source code of package parsec.canneal.
+[PARSEC] Running 'env version=pthreads /usr/bin/make':
+/usr/bin/g++ -O3 -g -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=3.0-beta-20150206 -DENABLE_THREADS -pthread annealer_thread.cpp -c -o annealer_thread.o
+/usr/bin/g++ -O3 -g -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=3.0-beta-20150206 -DENABLE_THREADS -pthread rng.cpp -c -o rng.o
+/usr/bin/g++ -O3 -g -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=3.0-beta-20150206 -DENABLE_THREADS -pthread netlist.cpp -c -o netlist.o
+/usr/bin/g++ -O3 -g -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=3.0-beta-20150206 -DENABLE_THREADS -pthread main.cpp -c -o main.o
+/usr/bin/g++ -O3 -g -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=3.0-beta-20150206 -DENABLE_THREADS -pthread netlist_elem.cpp -c -o netlist_elem.o
+/usr/bin/g++ -O3 -g -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=3.0-beta-20150206 -DENABLE_THREADS -pthread -L/usr/lib64 -L/usr/lib *.o  -lm -o canneal
+[PARSEC] Running 'env version=pthreads /usr/bin/make install':
+mkdir -p /home/rohan/uforea/parsec-3.0/pkgs/kernels/canneal/inst/amd64-linux.gcc/bin
+cp -f canneal /home/rohan/uforea/parsec-3.0/pkgs/kernels/canneal/inst/amd64-linux.gcc/bin/canneal
+[PARSEC] Done.

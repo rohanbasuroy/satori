@@ -1,0 +1,19 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+[PARSEC] Run with amd64-linux.gcc binaries and input simsmall started on Fri Aug 21 16:53:30 EDT 2020.
+[PARSEC] Benchmarks to run:  parsec.streamcluster
+
+[PARSEC] [========== Running benchmark parsec.streamcluster [1] ==========]
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] No archive for input 'simsmall' available, skipping input setup.
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/kernels/streamcluster/inst/amd64-linux.gcc/bin/streamcluster 10 20 32 4096 4096 1000 none output.txt 1':
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+read 4096 points
+
+real	0m0.294s
+user	0m0.293s
+sys	0m0.000s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

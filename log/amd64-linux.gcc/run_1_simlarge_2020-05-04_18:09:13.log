@@ -1,0 +1,52 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+
+[PARSEC] Run with amd64-linux.gcc binaries and input simlarge started on Mon May 4 18:09:13 EDT 2020.
+[PARSEC] [========== Running benchmark parsec.fluidanimate [1] ==========]
+[PARSEC] Benchmarks to run:  parsec.canneal
+
+[PARSEC] [========== Running benchmark parsec.canneal [1] ==========]
+[PARSEC] Deleting old run directory.
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'simlarge'.
+[PARSEC] Unpacking benchmark input 'simlarge'.
+in_300K.fluid
+400000.nets
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/fluidanimate/inst/amd64-linux.gcc/bin/fluidanimate 1 5 in_300K.fluid out.fluid':
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/kernels/canneal/inst/amd64-linux.gcc/bin/canneal 1 15000 2000 400000.nets 128':
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Loading file "in_300K.fluid"...
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Threadcount: 1
+15000 swaps per temperature step
+start temperature: 2000
+netlist filename: 400000.nets
+number of temperature steps: 128
+locs created
+Number of cells: 135424
+Grids steps over x, y, z: 0.00282609 0.0028125 0.00282609
+locs assigned
+Number of particles: 305809
+Just saw element: 100000
+Just saw element: 200000
+Saving file "out.fluid"...
+
+real	0m1.608s
+user	0m1.459s
+sys	0m0.148s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+Just saw element: 300000
+Just saw element: 400000
+netlist created. 400000 elements.
+Final routing is: 6.90232e+08
+
+real	0m5.577s
+user	0m5.511s
+sys	0m0.065s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

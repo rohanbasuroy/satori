@@ -1,0 +1,78 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+[PARSEC] Done.
+Saving file "out.fluid"...
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Loading file "in_5K.fluid"...
+[PARSEC] [----------    End of output    ----------]
+Number of cells: 4725
+Grids steps over x, y, z: 0.00866667 0.00857143 0.00866667
+
+real	0m0.035s
+user	0m0.018s
+sys	0m0.013s
+[PARSEC] Run with amd64-linux.gcc binaries and input test started on Mon Feb 17 18:07:04 EST 2020.
+transaction number is 3
+32
+192
+736
+2100
+4676
+8246
+11568
+12916
+11450
+8009
+4368
+1820
+560
+120
+16
+1
+the data preparation cost 0.007023 seconds, the FPgrowth cost 0.005569 seconds
+[PARSEC] Done.
+
+real	0m0.020s
+user	0m0.016s
+sys	0m0.000s
+[PARSEC] [----------    End of output    ----------]
+Number of particles: 4800
+[PARSEC] Benchmarks to run:  parsec.vips
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+[PARSEC] Setting up run directory.
+
+[PARSEC] Done.
+[PARSEC] [========== Running benchmark parsec.vips [1] ==========]
+[PARSEC] No archive for input 'test' available, skipping input setup.
+Saving file "out.fluid"...
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/swaptions/inst/amd64-linux.gcc/bin/swaptions -ns 1 -sm 5 -nt 1':
+
+real	0m0.041s
+user	0m0.016s
+sys	0m0.017s
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Deleting old run directory.
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Swaption 0: [SwaptionPrice: 22.0700566558 StdError: -nan] 
+Number of Simulations: 5,  Number of threads: 1 Number of swaptions: 1
+
+real	0m0.005s
+user	0m0.001s
+sys	0m0.004s
+[PARSEC] Done.
+[PARSEC] Setting up run directory.
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Unpacking benchmark input 'test'.
+[PARSEC] Done.
+barbados_256x288.v
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/vips/inst/amd64-linux.gcc/bin/vips im_benchmark barbados_256x288.v output.v':
+[PARSEC] [---------- Beginning of output ----------]
+im_setupout: unable to write to "output.v"
+
+real	0m0.071s
+user	0m0.069s
+sys	0m0.001s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

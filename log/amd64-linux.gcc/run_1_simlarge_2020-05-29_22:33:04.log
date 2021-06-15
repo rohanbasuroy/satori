@@ -1,0 +1,34 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+[PARSEC] Run with amd64-linux.gcc binaries and input simlarge started on Fri May 29 22:33:05 EDT 2020.
+[PARSEC] Run with amd64-linux.gcc binaries and input simlarge started on Fri May 29 22:33:05 EDT 2020.
+[PARSEC] Benchmarks to run:  parsec.vips
+[PARSEC] Benchmarks to run:  parsec.vips
+
+
+[PARSEC] [========== Running benchmark parsec.vips [1] ==========]
+[PARSEC] [========== Running benchmark parsec.vips [1] ==========]
+[PARSEC] Deleting old run directory.
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'simlarge'.
+[PARSEC] Unpacking benchmark input 'simlarge'.
+bigben_2662x5500.v
+bigben_2662x5500.v
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/vips/inst/amd64-linux.gcc/bin/vips im_benchmark bigben_2662x5500.v output.v':
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/vips/inst/amd64-linux.gcc/bin/vips im_benchmark bigben_2662x5500.v output.v':
+[PARSEC] [---------- Beginning of output ----------]
+
+real	0m16.964s
+user	0m3.639s
+sys	0m0.097s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+
+real	0m17.096s
+user	0m3.661s
+sys	0m0.057s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

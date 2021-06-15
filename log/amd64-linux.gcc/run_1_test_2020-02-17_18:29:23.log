@@ -1,0 +1,87 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Unpacking benchmark input 'test'.
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+[PARSEC] Run with amd64-linux.gcc binaries and input test started on Mon Feb 17 18:29:23 EST 2020.
+Threadcount: 1
+5 swaps per temperature step
+start temperature: 100
+netlist filename: 10.nets
+number of temperature steps: 1
+locs created
+[PARSEC] Run with amd64-linux.gcc binaries and input test started on Mon Feb 17 18:29:23 EST 2020.
+[PARSEC] Done.
+[PARSEC] Deleting old run directory.
+[PARSEC] Benchmarks to run:  parsec.vips
+10.nets
+[PARSEC] Benchmarks to run:  parsec.swaptions
+
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/kernels/canneal/inst/amd64-linux.gcc/bin/canneal 1 5 100 10.nets 1':
+[PARSEC] [========== Running benchmark parsec.vips [1] ==========]
+
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] Setting up run directory.
+[PARSEC] [========== Running benchmark parsec.swaptions [1] ==========]
+[PARSEC] Deleting old run directory.
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Threadcount: 1
+5 swaps per temperature step
+start temperature: 100
+netlist filename: 10.nets
+number of temperature steps: 1
+locs created
+locs assigned
+netlist created. 10 elements.
+Final routing is: 132
+
+real	0m0.015s
+user	0m0.001s
+sys	0m0.004s
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'test'.
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Setting up run directory.
+barbados_256x288.v
+[PARSEC] Done.
+[PARSEC] No archive for input 'test' available, skipping input setup.
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/vips/inst/amd64-linux.gcc/bin/vips im_benchmark barbados_256x288.v output.v':
+[PARSEC] Unpacking benchmark input 'test'.
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/swaptions/inst/amd64-linux.gcc/bin/swaptions -ns 1 -sm 5 -nt 1':
+barbados_256x288.v
+[PARSEC] [---------- Beginning of output ----------]
+format_for_file: file "barbados_256x288.v" not found
+
+real	0m0.034s
+user	0m0.004s
+sys	0m0.000s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/vips/inst/amd64-linux.gcc/bin/vips im_benchmark barbados_256x288.v output.v':
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Swaption 0: [SwaptionPrice: 22.0700566558 StdError: -nan] 
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] Done.
+Number of Simulations: 5,  Number of threads: 1 Number of swaptions: 1
+
+real	0m0.048s
+user	0m0.001s
+sys	0m0.005s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+
+real	0m0.146s
+user	0m0.086s
+sys	0m0.000s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+locs assigned
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+/home/rohan/uforea/parsec-3.0/bin/parsecmgmt: line 1222: 11715 Aborted                 (core dumped) /home/rohan/uforea/parsec-3.0/pkgs/kernels/canneal/inst/amd64-linux.gcc/bin/canneal 1 5 100 10.nets 1
+
+real	0m18.952s
+user	0m4.077s
+sys	0m12.356s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

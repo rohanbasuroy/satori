@@ -1,0 +1,18 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 BUILD LOGFILE ==========]
+
+[PARSEC] Build amd64-linux.gcc started on Wed Nov 13 16:18:09 EST 2019.
+[PARSEC] Packages to build:  parsec.streamcluster
+
+[PARSEC] [========== Building package parsec.streamcluster [1] ==========]
+[PARSEC] [---------- Analyzing package parsec.streamcluster ----------]
+[PARSEC] parsec.streamcluster does not depend on any other packages.
+[PARSEC] [---------- Building package parsec.streamcluster ----------]
+[PARSEC] Copying source code of package parsec.streamcluster.
+[PARSEC] Running 'env version=pthreads /usr/bin/make':
+/usr/bin/g++ -O3 -g -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=3.0-beta-20150206 -DENABLE_THREADS -pthread -c streamcluster.cpp
+/usr/bin/g++ -O3 -g -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=3.0-beta-20150206 -DENABLE_THREADS -pthread -c parsec_barrier.cpp
+/usr/bin/g++ -O3 -g -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=3.0-beta-20150206 -DENABLE_THREADS -pthread -L/usr/lib64 -L/usr/lib streamcluster.o parsec_barrier.o  -o streamcluster
+[PARSEC] Running 'env version=pthreads /usr/bin/make install':
+mkdir -p /home/rohan/uforea/parsec-3.0/pkgs/kernels/streamcluster/inst/amd64-linux.gcc/bin
+cp -f streamcluster /home/rohan/uforea/parsec-3.0/pkgs/kernels/streamcluster/inst/amd64-linux.gcc/bin/streamcluster
+[PARSEC] Done.

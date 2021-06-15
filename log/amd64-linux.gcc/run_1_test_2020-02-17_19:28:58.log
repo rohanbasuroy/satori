@@ -1,0 +1,34 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+[PARSEC] Benchmarks to run:  parsec.streamcluster
+
+[PARSEC] Run with amd64-linux.gcc binaries and input test started on Mon Feb 17 19:28:58 EST 2020.
+[PARSEC] [========== Running benchmark parsec.streamcluster [1] ==========]
+[PARSEC] Benchmarks to run:  parsec.streamcluster
+[PARSEC] Deleting old run directory.
+
+[PARSEC] [========== Running benchmark parsec.streamcluster [1] ==========]
+[PARSEC] Setting up run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] No archive for input 'test' available, skipping input setup.
+[PARSEC] No archive for input 'test' available, skipping input setup.
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/kernels/streamcluster/inst/amd64-linux.gcc/bin/streamcluster 2 5 1 10 10 5 none output.txt 1':
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/kernels/streamcluster/inst/amd64-linux.gcc/bin/streamcluster 2 5 1 10 10 5 none output.txt 1':
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+read 10 points
+
+real	0m0.006s
+user	0m0.004s
+sys	0m0.001s
+[PARSEC] [----------    End of output    ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+read 10 points
+
+real	0m0.007s
+user	0m0.001s
+sys	0m0.004s
+[PARSEC] Done.
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

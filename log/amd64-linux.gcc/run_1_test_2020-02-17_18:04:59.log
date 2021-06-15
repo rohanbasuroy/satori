@@ -1,0 +1,74 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+[PARSEC] Benchmarks to run:  parsec.canneal
+[PARSEC] Run with amd64-linux.gcc binaries and input test started on Mon Feb 17 18:04:59 EST 2020.
+[PARSEC] Deleting old run directory.
+
+[PARSEC] Benchmarks to run:  parsec.blackscholes
+[PARSEC] [========== Running benchmark parsec.canneal [1] ==========]
+
+[PARSEC] [========== Running benchmark parsec.blackscholes [1] ==========]
+[PARSEC] Setting up run directory.
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'test'.
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'test'.
+[PARSEC] Unpacking benchmark input 'test'.
+[PARSEC] Setting up run directory.
+in_5K.fluid
+barbados_256x288.v
+10.nets
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/fluidanimate/inst/amd64-linux.gcc/bin/fluidanimate 1 1 in_5K.fluid out.fluid':
+[PARSEC] Unpacking benchmark input 'test'.
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/vips/inst/amd64-linux.gcc/bin/vips im_benchmark barbados_256x288.v output.v':
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/kernels/canneal/inst/amd64-linux.gcc/bin/canneal 1 5 100 10.nets 1':
+[PARSEC] [---------- Beginning of output ----------]
+in_4.txt
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Loading file "in_5K.fluid"...
+Error opening file. Aborting.
+[PARSEC] [---------- Beginning of output ----------]
+
+real	0m0.008s
+user	0m0.005s
+sys	0m0.004s
+format_for_file: file "barbados_256x288.v" not found
+
+real	0m0.006s
+user	0m0.000s
+sys	0m0.006s
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/blackscholes/inst/amd64-linux.gcc/bin/blackscholes 1 in_4.txt prices.txt':
+[PARSEC] [----------    End of output    ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Threadcount: 1
+5 swaps per temperature step
+start temperature: 100
+netlist filename: 10.nets
+number of temperature steps: 1
+locs created
+locs assigned
+netlist created. 10 elements.
+Final routing is: 132
+
+real	0m0.007s
+user	0m0.007s
+sys	0m0.001s
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+[PARSEC] [----------    End of output    ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Num of Options: 4
+Num of Runs: 100
+Size of data: 160
+
+real	0m0.007s
+user	0m0.007s
+sys	0m0.000s
+[PARSEC] Done.
+[PARSEC] Done.
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

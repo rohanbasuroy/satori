@@ -1,0 +1,72 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+[PARSEC] Run with amd64-linux.gcc binaries and input simlarge started on Fri May 29 18:59:18 EDT 2020.
+[PARSEC] Run with amd64-linux.gcc binaries and input simlarge started on Fri May 29 18:59:18 EDT 2020.
+[PARSEC] Run with amd64-linux.gcc binaries and input simlarge started on Fri May 29 18:59:18 EDT 2020.
+[PARSEC] Benchmarks to run:  parsec.blackscholes
+[PARSEC] Benchmarks to run:  parsec.canneal
+[PARSEC] Benchmarks to run:  parsec.blackscholes
+
+
+
+[PARSEC] [========== Running benchmark parsec.blackscholes [1] ==========]
+[PARSEC] [========== Running benchmark parsec.canneal [1] ==========]
+[PARSEC] [========== Running benchmark parsec.blackscholes [1] ==========]
+[PARSEC] Deleting old run directory.
+[PARSEC] Deleting old run directory.
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'simlarge'.
+[PARSEC] Unpacking benchmark input 'simlarge'.
+[PARSEC] Unpacking benchmark input 'simlarge'.
+in_64K.txt
+400000.nets
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/blackscholes/inst/amd64-linux.gcc/bin/blackscholes 1 in_64K.txt prices.txt':
+in_64K.txt
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/blackscholes/inst/amd64-linux.gcc/bin/blackscholes 1 in_64K.txt prices.txt':
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/kernels/canneal/inst/amd64-linux.gcc/bin/canneal 1 15000 2000 400000.nets 128':
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Threadcount: 1
+15000 swaps per temperature step
+start temperature: 2000
+netlist filename: 400000.nets
+number of temperature steps: 128
+locs created
+locs assigned
+Num of Options: 65536
+Num of Runs: 100
+Size of data: 2621440
+
+real	0m2.632s
+user	0m0.532s
+sys	0m0.000s
+Num of Options: 65536
+Num of Runs: 100
+Size of data: 2621440
+
+real	0m2.620s
+user	0m0.529s
+sys	0m0.004s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+[PARSEC] Done.
+Just saw element: 100000
+Just saw element: 200000
+Just saw element: 300000
+Just saw element: 400000
+netlist created. 400000 elements.
+Final routing is: 6.90232e+08
+
+real	0m18.897s
+user	0m4.988s
+sys	0m0.047s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

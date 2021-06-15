@@ -1,0 +1,34 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+[PARSEC] Run with amd64-linux.gcc binaries and input test started on Mon Feb 17 19:05:35 EST 2020.
+[PARSEC] Unpacking benchmark input 'test'.
+[PARSEC] Benchmarks to run:  parsec.vips
+
+in_5K.fluid
+[PARSEC] [========== Running benchmark parsec.vips [1] ==========]
+[PARSEC] Deleting old run directory.
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/fluidanimate/inst/amd64-linux.gcc/bin/fluidanimate 1 1 in_5K.fluid out.fluid':
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Loading file "in_5K.fluid"...
+Number of cells: 4725
+Grids steps over x, y, z: 0.00866667 0.00857143 0.00866667
+[PARSEC] Setting up run directory.
+Number of particles: 4800
+[PARSEC] Unpacking benchmark input 'test'.
+Saving file "out.fluid"...
+barbados_256x288.v
+
+real	0m0.033s
+user	0m0.019s
+sys	0m0.011s
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/vips/inst/amd64-linux.gcc/bin/vips im_benchmark barbados_256x288.v output.v':
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] Done.
+
+real	0m0.072s
+user	0m0.054s
+sys	0m0.009s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

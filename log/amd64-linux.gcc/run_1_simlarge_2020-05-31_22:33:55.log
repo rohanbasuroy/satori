@@ -1,0 +1,56 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+[PARSEC] [========== Running benchmark parsec.canneal [1] ==========]
+[PARSEC] Run with amd64-linux.gcc binaries and input simlarge started on Sun May 31 22:33:55 EDT 2020.
+[PARSEC] Deleting old run directory.
+[PARSEC] Benchmarks to run:  parsec.canneal
+
+[PARSEC] Setting up run directory.
+[PARSEC] [========== Running benchmark parsec.canneal [1] ==========]
+[PARSEC] Unpacking benchmark input 'simlarge'.
+[PARSEC] Deleting old run directory.
+400000.nets
+[PARSEC] Setting up run directory.
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/kernels/canneal/inst/amd64-linux.gcc/bin/canneal 1 15000 2000 400000.nets 128':
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] Unpacking benchmark input 'simlarge'.
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Threadcount: 1
+15000 swaps per temperature step
+start temperature: 2000
+netlist filename: 400000.nets
+number of temperature steps: 128
+locs created
+400000.nets
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/kernels/canneal/inst/amd64-linux.gcc/bin/canneal 1 15000 2000 400000.nets 128':
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Threadcount: 1
+15000 swaps per temperature step
+start temperature: 2000
+netlist filename: 400000.nets
+number of temperature steps: 128
+locs created
+locs assigned
+Just saw element: 100000
+Just saw element: 200000
+Just saw element: 300000
+Just saw element: 400000
+netlist created. 400000 elements.
+Final routing is: 6.90232e+08
+locs assigned
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+
+real	0m13.082s
+user	0m5.797s
+sys	0m0.049s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+/home/rohan/uforea/parsec-3.0/bin/parsecmgmt: line 1222:  7106 Aborted                 (core dumped) /home/rohan/uforea/parsec-3.0/pkgs/kernels/canneal/inst/amd64-linux.gcc/bin/canneal 1 15000 2000 400000.nets 128
+
+real	0m13.984s
+user	0m2.378s
+sys	0m3.885s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

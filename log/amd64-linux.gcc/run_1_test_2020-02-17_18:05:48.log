@@ -1,0 +1,37 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+[PARSEC] Run with amd64-linux.gcc binaries and input test started on Mon Feb 17 18:05:48 EST 2020.
+barbados_256x288.v
+[PARSEC] Benchmarks to run:  parsec.canneal
+
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/vips/inst/amd64-linux.gcc/bin/vips im_benchmark barbados_256x288.v output.v':
+[PARSEC] [========== Running benchmark parsec.canneal [1] ==========]
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'test'.
+10.nets
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/kernels/canneal/inst/amd64-linux.gcc/bin/canneal 1 5 100 10.nets 1':
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Threadcount: 1
+5 swaps per temperature step
+start temperature: 100
+netlist filename: 10.nets
+number of temperature steps: 1
+locs created
+locs assigned
+netlist created. 10 elements.
+Final routing is: 132
+
+real	0m0.004s
+user	0m0.001s
+sys	0m0.003s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+
+real	0m0.104s
+user	0m0.093s
+sys	0m0.012s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

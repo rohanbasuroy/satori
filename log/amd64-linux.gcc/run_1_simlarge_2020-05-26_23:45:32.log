@@ -1,0 +1,65 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+[PARSEC] No archive for input 'simlarge' available, skipping input setup.
+[PARSEC] Run with amd64-linux.gcc binaries and input simlarge started on Tue May 26 23:45:32 EDT 2020.
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/kernels/streamcluster/inst/amd64-linux.gcc/bin/streamcluster 10 20 128 16384 16384 1000 none output.txt 1':
+[PARSEC] Benchmarks to run:  parsec.freqmine
+[PARSEC] [---------- Beginning of output ----------]
+
+[PARSEC] [========== Running benchmark parsec.freqmine [1] ==========]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+[PARSEC] Setting up run directory.
+[PARSEC] Deleting old run directory.
+[PARSEC] Unpacking benchmark input 'simlarge'.
+bigben_2662x5500.v
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'simlarge'.
+kosarak_990k.dat
+read 16384 points
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/freqmine/inst/amd64-linux.gcc/bin/freqmine kosarak_990k.dat 790':
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/vips/inst/amd64-linux.gcc/bin/vips im_benchmark bigben_2662x5500.v output.v':
+[PARSEC] [---------- Beginning of output ----------]
+
+real	0m4.227s
+user	0m4.330s
+sys	0m0.135s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+transaction number is 990002
+1548
+13483
+46649
+131381
+415489
+1239344
+2985564
+5696308
+8709873
+10789491
+10902648
+9011183
+6094236
+3374161
+1530954
+564958
+165173
+36535
+5727
+578
+33
+1
+the data preparation cost 0.296337 seconds, the FPgrowth cost 5.631483 seconds
+
+real	0m5.933s
+user	0m5.838s
+sys	0m0.092s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+
+real	0m6.624s
+user	0m6.613s
+sys	0m0.008s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

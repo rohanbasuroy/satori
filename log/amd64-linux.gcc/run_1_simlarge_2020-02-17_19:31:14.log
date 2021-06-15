@@ -1,0 +1,41 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+[PARSEC] Run with amd64-linux.gcc binaries and input simlarge started on Mon Feb 17 19:31:14 EST 2020.
+[PARSEC] Benchmarks to run:  parsec.canneal
+
+[PARSEC] [========== Running benchmark parsec.canneal [1] ==========]
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'simlarge'.
+400000.nets
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/kernels/canneal/inst/amd64-linux.gcc/bin/canneal 1 15000 2000 400000.nets 128':
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Threadcount: 1
+15000 swaps per temperature step
+start temperature: 2000
+netlist filename: 400000.nets
+number of temperature steps: 128
+locs created
+locs assigned
+Num of Options: 65536
+Num of Runs: 100
+Size of data: 2621440
+
+real	0m1.226s
+user	0m1.200s
+sys	0m0.017s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+Just saw element: 100000
+Just saw element: 200000
+Just saw element: 300000
+Just saw element: 400000
+netlist created. 400000 elements.
+Final routing is: 6.90232e+08
+
+real	0m9.587s
+user	0m9.357s
+sys	0m0.179s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

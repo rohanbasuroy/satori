@@ -1,0 +1,63 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] Run with amd64-linux.gcc binaries and input test started on Mon Feb 17 18:26:39 EST 2020.
+[PARSEC] Done.
+[PARSEC] Benchmarks to run:  parsec.streamcluster
+[PARSEC] Done.
+
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Number of particles: 4800
+[PARSEC] [========== Running benchmark parsec.streamcluster [1] ==========]
+transaction number is 3
+32
+192
+736
+2100
+4676
+8246
+11568
+12916
+11450
+8009
+4368
+1820
+560
+120
+16
+1
+the data preparation cost 0.009407 seconds, the FPgrowth cost 0.008316 seconds
+[PARSEC] Deleting old run directory.
+Saving file "out.fluid"...
+[PARSEC] Setting up run directory.
+
+real	0m0.036s
+user	0m0.016s
+sys	0m0.006s
+
+real	0m0.065s
+user	0m0.027s
+sys	0m0.019s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] No archive for input 'test' available, skipping input setup.
+[PARSEC] Done.
+[PARSEC] Done.
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/kernels/streamcluster/inst/amd64-linux.gcc/bin/streamcluster 2 5 1 10 10 5 none output.txt 1':
+[PARSEC] [---------- Beginning of output ----------]
+
+real	0m0.100s
+user	0m0.091s
+sys	0m0.008s
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+read 10 points
+
+real	0m0.007s
+user	0m0.004s
+sys	0m0.000s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+[PARSEC] Done.

@@ -1,0 +1,62 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Num of Options: 4
+Num of Runs: 100
+Size of data: 160
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+[PARSEC] [========== Running benchmark parsec.freqmine [1] ==========]
+[PARSEC] Run with amd64-linux.gcc binaries and input test started on Thu Nov 14 15:47:16 EST 2019.
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Benchmarks to run:  parsec.streamcluster
+[PARSEC] Done.
+
+[PARSEC] Deleting old run directory.
+[PARSEC] [========== Running benchmark parsec.streamcluster [1] ==========]
+[PARSEC] Setting up run directory.
+[PARSEC] Deleting old run directory.
+[PARSEC] Unpacking benchmark input 'test'.
+[PARSEC] Setting up run directory.
+T10I4D100K_3.dat
+[PARSEC] No archive for input 'test' available, skipping input setup.
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/freqmine/inst/amd64-linux.gcc/bin/freqmine T10I4D100K_3.dat 1':
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/kernels/streamcluster/inst/amd64-linux.gcc/bin/streamcluster 2 5 1 10 10 5 none output.txt 1':
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+read 10 points
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+
+real	0m0.004s
+user	0m0.000s
+sys	0m0.004s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+transaction number is 3
+32
+192
+736
+2100
+4676
+8246
+11568
+12916
+11450
+8009
+4368
+1820
+560
+120
+16
+1
+the data preparation cost 0.008315 seconds, the FPgrowth cost 0.002990 seconds
+
+real	0m0.015s
+user	0m0.015s
+sys	0m0.000s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

@@ -1,0 +1,34 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+[PARSEC] Deleting old run directory.
+[PARSEC] Run with amd64-linux.gcc binaries and input test started on Mon Feb 17 19:24:34 EST 2020.
+[PARSEC] Setting up run directory.
+[PARSEC] Benchmarks to run:  parsec.vips
+[PARSEC] Unpacking benchmark input 'test'.
+
+in_4.txt
+[PARSEC] [========== Running benchmark parsec.vips [1] ==========]
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/blackscholes/inst/amd64-linux.gcc/bin/blackscholes 1 in_4.txt prices.txt':
+[PARSEC] Deleting old run directory.
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Num of Options: 4
+Num of Runs: 100
+Size of data: 160
+
+real	0m0.005s
+user	0m0.000s
+sys	0m0.003s
+[PARSEC] Setting up run directory.
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Unpacking benchmark input 'test'.
+[PARSEC] Done.
+barbados_256x288.v
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/vips/inst/amd64-linux.gcc/bin/vips im_benchmark barbados_256x288.v output.v':
+[PARSEC] [---------- Beginning of output ----------]
+
+real	0m0.081s
+user	0m0.068s
+sys	0m0.008s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

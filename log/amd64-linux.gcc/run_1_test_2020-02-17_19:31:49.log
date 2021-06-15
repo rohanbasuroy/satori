@@ -1,0 +1,20 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+[PARSEC] Run with amd64-linux.gcc binaries and input test started on Mon Feb 17 19:31:49 EST 2020.
+[PARSEC] Benchmarks to run:  parsec.swaptions
+
+[PARSEC] [========== Running benchmark parsec.swaptions [1] ==========]
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] No archive for input 'test' available, skipping input setup.
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/swaptions/inst/amd64-linux.gcc/bin/swaptions -ns 1 -sm 5 -nt 1':
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Swaption 0: [SwaptionPrice: 22.0700566558 StdError: -nan] 
+Number of Simulations: 5,  Number of threads: 1 Number of swaptions: 1
+
+real	0m0.008s
+user	0m0.001s
+sys	0m0.006s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

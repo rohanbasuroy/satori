@@ -1,0 +1,33 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] Run with amd64-linux.gcc binaries and input test started on Mon Feb 17 19:16:18 EST 2020.
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Loading file "in_5K.fluid"...
+Number of cells: 4725
+Grids steps over x, y, z: 0.00866667 0.00857143 0.00866667
+[PARSEC] Benchmarks to run:  parsec.swaptions
+
+Number of particles: 4800
+[PARSEC] [========== Running benchmark parsec.swaptions [1] ==========]
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] No archive for input 'test' available, skipping input setup.
+Saving file "out.fluid"...
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/swaptions/inst/amd64-linux.gcc/bin/swaptions -ns 1 -sm 5 -nt 1':
+
+real	0m0.035s
+user	0m0.027s
+sys	0m0.008s
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Swaption 0: [SwaptionPrice: 22.0700566558 StdError: -nan] 
+Number of Simulations: 5,  Number of threads: 1 Number of swaptions: 1
+
+real	0m0.008s
+user	0m0.005s
+sys	0m0.000s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

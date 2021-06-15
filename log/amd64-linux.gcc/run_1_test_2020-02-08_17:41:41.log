@@ -1,0 +1,76 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/freqmine/inst/amd64-linux.gcc/bin/freqmine T10I4D100K_3.dat 1':
+
+[PARSEC] Done.
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] [========== Running benchmark parsec.canneal [1] ==========]
+[PARSEC] Run with amd64-linux.gcc binaries and input test started on Sat Feb 8 17:41:41 EST 2020.
+[PARSEC] Benchmarks to run:  parsec.fluidanimate
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+
+[PARSEC] Deleting old run directory.
+[PARSEC] [========== Running benchmark parsec.fluidanimate [1] ==========]
+[PARSEC] Setting up run directory.
+[PARSEC] Deleting old run directory.
+[PARSEC] Unpacking benchmark input 'test'.
+transaction number is 3
+32
+192
+736
+2100
+4676
+8246
+11568
+12916
+11450
+8009
+4368
+1820
+560
+120
+16
+1
+the data preparation cost 0.015701 seconds, the FPgrowth cost 0.011175 seconds
+
+real	0m0.033s
+user	0m0.011s
+sys	0m0.023s
+[PARSEC] Setting up run directory.
+[PARSEC] [----------    End of output    ----------]
+10.nets
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/kernels/canneal/inst/amd64-linux.gcc/bin/canneal 1 5 100 10.nets 1':
+[PARSEC] Done.
+[PARSEC] Unpacking benchmark input 'test'.
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Threadcount: 1
+5 swaps per temperature step
+start temperature: 100
+netlist filename: 10.nets
+number of temperature steps: 1
+locs created
+locs assigned
+netlist created. 10 elements.
+in_5K.fluid
+Final routing is: 132
+
+real	0m0.007s
+user	0m0.001s
+sys	0m0.007s
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/fluidanimate/inst/amd64-linux.gcc/bin/fluidanimate 1 1 in_5K.fluid out.fluid':
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] Done.
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Loading file "in_5K.fluid"...
+Number of cells: 4725
+Grids steps over x, y, z: 0.00866667 0.00857143 0.00866667
+Number of particles: 4800
+Saving file "out.fluid"...
+
+real	0m0.062s
+user	0m0.027s
+sys	0m0.036s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

@@ -1,0 +1,51 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+[PARSEC] Run with amd64-linux.gcc binaries and input test started on Mon Feb 17 19:05:48 EST 2020.
+[PARSEC] Deleting old run directory.
+[PARSEC] Benchmarks to run:  parsec.swaptions
+
+[PARSEC] Setting up run directory.
+[PARSEC] [========== Running benchmark parsec.swaptions [1] ==========]
+[PARSEC] Unpacking benchmark input 'test'.
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+T10I4D100K_3.dat
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/freqmine/inst/amd64-linux.gcc/bin/freqmine T10I4D100K_3.dat 1':
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] No archive for input 'test' available, skipping input setup.
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/swaptions/inst/amd64-linux.gcc/bin/swaptions -ns 1 -sm 5 -nt 1':
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Swaption 0: [SwaptionPrice: 22.0700566558 StdError: -nan] 
+Number of Simulations: 5,  Number of threads: 1 Number of swaptions: 1
+
+real	0m0.010s
+user	0m0.004s
+sys	0m0.004s
+transaction number is 3
+32
+192
+736
+2100
+4676
+8246
+11568
+12916
+11450
+8009
+4368
+1820
+560
+120
+16
+1
+the data preparation cost 0.011955 seconds, the FPgrowth cost 0.005132 seconds
+
+real	0m0.024s
+user	0m0.015s
+sys	0m0.007s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+[PARSEC] Done.

@@ -1,0 +1,69 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+[PARSEC] Unpacking benchmark input 'test'.
+[PARSEC] Run with amd64-linux.gcc binaries and input test started on Mon Feb 17 19:13:48 EST 2020.
+barbados_256x288.v
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Loading file "in_5K.fluid"...
+Number of cells: 4725
+Grids steps over x, y, z: 0.00866667 0.00857143 0.00866667
+[PARSEC] Unpacking benchmark input 'test'.
+[PARSEC] Benchmarks to run:  parsec.freqmine
+
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/vips/inst/amd64-linux.gcc/bin/vips im_benchmark barbados_256x288.v output.v':
+[PARSEC] [---------- Beginning of output ----------]
+Number of particles: 4800
+[PARSEC] [========== Running benchmark parsec.freqmine [1] ==========]
+barbados_256x288.v
+Saving file "out.fluid"...
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/vips/inst/amd64-linux.gcc/bin/vips im_benchmark barbados_256x288.v output.v':
+
+real	0m0.052s
+user	0m0.014s
+sys	0m0.018s
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] Deleting old run directory.
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Setting up run directory.
+[PARSEC] Done.
+[PARSEC] Unpacking benchmark input 'test'.
+T10I4D100K_3.dat
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/freqmine/inst/amd64-linux.gcc/bin/freqmine T10I4D100K_3.dat 1':
+[PARSEC] [---------- Beginning of output ----------]
+
+real	0m0.096s
+user	0m0.068s
+sys	0m0.008s
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+
+real	0m0.086s
+user	0m0.058s
+sys	0m0.019s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+transaction number is 3
+32
+192
+736
+2100
+4676
+8246
+11568
+12916
+11450
+8009
+4368
+1820
+560
+120
+16
+1
+the data preparation cost 0.009118 seconds, the FPgrowth cost 0.005615 seconds
+
+real	0m0.019s
+user	0m0.016s
+sys	0m0.000s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+[PARSEC] Done.

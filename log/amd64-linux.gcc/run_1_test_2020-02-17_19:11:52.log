@@ -1,0 +1,55 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Run with amd64-linux.gcc binaries and input test started on Mon Feb 17 19:11:52 EST 2020.
+Number of particles: 4800
+[PARSEC] Unpacking benchmark input 'test'.
+[PARSEC] Benchmarks to run:  parsec.vips
+[PARSEC] Setting up run directory.
+
+in_4.txt
+[PARSEC] [========== Running benchmark parsec.vips [1] ==========]
+[PARSEC] No archive for input 'test' available, skipping input setup.
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/blackscholes/inst/amd64-linux.gcc/bin/blackscholes 1 in_4.txt prices.txt':
+Saving file "out.fluid"...
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/swaptions/inst/amd64-linux.gcc/bin/swaptions -ns 1 -sm 5 -nt 1':
+[PARSEC] Deleting old run directory.
+[PARSEC] [---------- Beginning of output ----------]
+
+real	0m0.060s
+user	0m0.029s
+sys	0m0.022s
+[PARSEC] Setting up run directory.
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Unpacking benchmark input 'test'.
+[PARSEC] Done.
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Num of Options: 4
+Num of Runs: 100
+Size of data: 160
+
+real	0m0.007s
+user	0m0.003s
+sys	0m0.000s
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Swaption 0: [SwaptionPrice: 22.0700566558 StdError: -nan] 
+Number of Simulations: 5,  Number of threads: 1 Number of swaptions: 1
+
+real	0m0.008s
+user	0m0.005s
+sys	0m0.000s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] [----------    End of output    ----------]
+barbados_256x288.v
+[PARSEC] Done.
+[PARSEC] Done.
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/vips/inst/amd64-linux.gcc/bin/vips im_benchmark barbados_256x288.v output.v':
+[PARSEC] [---------- Beginning of output ----------]
+
+real	0m0.092s
+user	0m0.082s
+sys	0m0.008s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

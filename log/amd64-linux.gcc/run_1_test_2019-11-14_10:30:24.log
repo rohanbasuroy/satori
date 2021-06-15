@@ -1,0 +1,7 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+[PARSEC] Run with amd64-linux.gcc binaries and input test started on Thu Nov 14 10:30:24 EST 2019.
+[PARSEC] Benchmarks to run:  parsec.bodytrack
+
+[PARSEC] [========== Running benchmark parsec.bodytrack [1] ==========]
+[PARSEC] Error: Binary '/home/rohan/uforea/parsec-3.0/pkgs/apps/bodytrack/inst/amd64-linux.gcc/bin/bodytrack' of package 'parsec.bodytrack' cannot be found.

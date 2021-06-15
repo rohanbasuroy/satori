@@ -1,0 +1,77 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+
+real	0m0.068s
+user	0m0.063s
+sys	0m0.004s
+
+[PARSEC] [----------    End of output    ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+[PARSEC] Run with amd64-linux.gcc binaries and input test started on Mon Feb 17 18:48:44 EST 2020.
+[PARSEC] [========== Running benchmark parsec.vips [1] ==========]
+[PARSEC] Benchmarks to run:  parsec.fluidanimate
+[PARSEC] Done.
+
+[PARSEC] Deleting old run directory.
+[PARSEC] [========== Running benchmark parsec.fluidanimate [1] ==========]
+transaction number is 3
+32
+192
+736
+2100
+4676
+8246
+11568
+12916
+11450
+8009
+4368
+1820
+560
+120
+16
+1
+the data preparation cost 0.007155 seconds, the FPgrowth cost 0.005889 seconds
+
+real	0m0.018s
+user	0m0.012s
+sys	0m0.004s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Setting up run directory.
+[PARSEC] Deleting old run directory.
+[PARSEC] Done.
+im_setupout: unable to write to "output.v"
+[PARSEC] Setting up run directory.
+
+real	0m0.085s
+user	0m0.071s
+sys	0m0.004s
+[PARSEC] Unpacking benchmark input 'test'.
+[PARSEC] Unpacking benchmark input 'test'.
+[PARSEC] [----------    End of output    ----------]
+barbados_256x288.v
+[PARSEC] Done.
+in_5K.fluid
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/vips/inst/amd64-linux.gcc/bin/vips im_benchmark barbados_256x288.v output.v':
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/fluidanimate/inst/amd64-linux.gcc/bin/fluidanimate 1 1 in_5K.fluid out.fluid':
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Loading file "in_5K.fluid"...
+Number of cells: 4725
+Grids steps over x, y, z: 0.00866667 0.00857143 0.00866667
+Number of particles: 4800
+Saving file "out.fluid"...
+
+real	0m0.038s
+user	0m0.030s
+sys	0m0.007s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+im_setupout: unable to write to "output.v"
+
+real	0m0.115s
+user	0m0.096s
+sys	0m0.015s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

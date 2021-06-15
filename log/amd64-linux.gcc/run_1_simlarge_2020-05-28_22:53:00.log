@@ -1,0 +1,32 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+[PARSEC] Setting up run directory.
+[PARSEC] Run with amd64-linux.gcc binaries and input simlarge started on Thu May 28 22:53:00 EDT 2020.
+[PARSEC] No archive for input 'simlarge' available, skipping input setup.
+[PARSEC] Benchmarks to run:  parsec.streamcluster
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/kernels/streamcluster/inst/amd64-linux.gcc/bin/streamcluster 10 20 128 16384 16384 1000 none output.txt 1':
+
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] [========== Running benchmark parsec.streamcluster [1] ==========]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+[PARSEC] Deleting old run directory.
+read 16384 points
+[PARSEC] Setting up run directory.
+[PARSEC] No archive for input 'simlarge' available, skipping input setup.
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/kernels/streamcluster/inst/amd64-linux.gcc/bin/streamcluster 10 20 128 16384 16384 1000 none output.txt 1':
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+read 16384 points
+
+real	0m16.168s
+user	0m7.099s
+sys	0m0.000s
+error opening output.txt
+
+real	0m16.246s
+user	0m7.164s
+sys	0m0.004s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+[PARSEC] Done.

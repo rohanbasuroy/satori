@@ -1,0 +1,52 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+[PARSEC] [========== Running benchmark parsec.canneal [1] ==========]
+[PARSEC] Run with amd64-linux.gcc binaries and input test started on Mon Feb 17 19:24:44 EST 2020.
+[PARSEC] Deleting old run directory.
+[PARSEC] Benchmarks to run:  parsec.canneal
+
+[PARSEC] Setting up run directory.
+[PARSEC] [========== Running benchmark parsec.canneal [1] ==========]
+[PARSEC] Unpacking benchmark input 'test'.
+[PARSEC] Deleting old run directory.
+10.nets
+[PARSEC] Setting up run directory.
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/kernels/canneal/inst/amd64-linux.gcc/bin/canneal 1 5 100 10.nets 1':
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] Unpacking benchmark input 'test'.
+10.nets
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Threadcount: 1
+5 swaps per temperature step
+start temperature: 100
+netlist filename: 10.nets
+number of temperature steps: 1
+locs created
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/kernels/canneal/inst/amd64-linux.gcc/bin/canneal 1 5 100 10.nets 1':
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Threadcount: 1
+5 swaps per temperature step
+start temperature: 100
+netlist filename: 10.nets
+number of temperature steps: 1
+locs created
+locs assigned
+netlist created. 10 elements.
+Final routing is: 132
+
+real	0m0.006s
+user	0m0.004s
+sys	0m0.000s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+locs assigned
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+/home/rohan/uforea/parsec-3.0/bin/parsecmgmt: line 1222: 32290 Aborted                 (core dumped) /home/rohan/uforea/parsec-3.0/pkgs/kernels/canneal/inst/amd64-linux.gcc/bin/canneal 1 5 100 10.nets 1
+
+real	0m20.298s
+user	0m4.929s
+sys	0m15.032s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

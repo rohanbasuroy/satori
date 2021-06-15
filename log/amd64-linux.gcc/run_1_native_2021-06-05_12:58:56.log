@@ -1,0 +1,99 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+[PARSEC] Setting up run directory.
+[PARSEC] Run with amd64-linux.gcc binaries and input native started on Sat Jun 5 12:58:56 EDT 2021.
+[PARSEC] Benchmarks to run:  parsec.fluidanimate
+[PARSEC] No archive for input 'native' available, skipping input setup.
+
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/kernels/streamcluster/inst/amd64-linux.gcc/bin/streamcluster 10 20 128 1000000 200000 5000 none output.txt 1':
+[PARSEC] [========== Running benchmark parsec.fluidanimate [1] ==========]
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'native'.
+in_500K.fluid
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'native'.
+webdocs_250k.dat
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/fluidanimate/inst/amd64-linux.gcc/bin/fluidanimate 1 500 in_500K.fluid out.fluid':
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Loading file "in_500K.fluid"...
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'native'.
+Number of cells: 229900
+Grids steps over x, y, z: 0.00236364 0.00236842 0.00236364
+in_10M.txt
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'native'.
+orion_18000x18000.v
+read 200000 points
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/freqmine/inst/amd64-linux.gcc/bin/freqmine webdocs_250k.dat 11000':
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Number of particles: 501642
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/blackscholes/inst/amd64-linux.gcc/bin/blackscholes 1 in_10M.txt prices.txt':
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/vips/inst/amd64-linux.gcc/bin/vips im_benchmark orion_18000x18000.v output.v':
+[PARSEC] [---------- Beginning of output ----------]
+Num of Options: 10000000
+Num of Runs: 100
+Size of data: 400000000
+
+real	1m47.448s
+user	1m46.873s
+sys	0m0.540s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+
+real	1m53.565s
+user	1m54.263s
+sys	0m1.588s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+read 200000 points
+read 200000 points
+read 200000 points
+Saving file "out.fluid"...
+
+real	6m43.097s
+user	6m42.690s
+sys	0m0.248s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+read 200000 points
+transaction number is 250000
+829
+28599
+363898
+2699198
+13410070
+47495313
+124190838
+245065199
+369974305
+430373350
+386138019
+265795578
+138598934
+53551164
+14790217
+2753445
+311877
+17498
+269
+the data preparation cost 1.227298 seconds, the FPgrowth cost 575.814787 seconds
+
+real	9m37.053s
+user	9m35.749s
+sys	0m1.015s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+
+real	10m11.998s
+user	10m11.698s
+sys	0m0.068s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

@@ -1,0 +1,54 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+[PARSEC] [========== Running benchmark parsec.blackscholes [1] ==========]
+[PARSEC] Run with amd64-linux.gcc binaries and input test started on Mon Feb 17 19:21:30 EST 2020.
+[PARSEC] Deleting old run directory.
+[PARSEC] Benchmarks to run:  parsec.swaptions
+[PARSEC] Setting up run directory.
+[PARSEC] Setting up run directory.
+
+[PARSEC] [========== Running benchmark parsec.swaptions [1] ==========]
+[PARSEC] Unpacking benchmark input 'test'.
+[PARSEC] Unpacking benchmark input 'test'.
+in_4.txt
+[PARSEC] Deleting old run directory.
+in_5K.fluid
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/blackscholes/inst/amd64-linux.gcc/bin/blackscholes 1 in_4.txt prices.txt':
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/fluidanimate/inst/amd64-linux.gcc/bin/fluidanimate 1 1 in_5K.fluid out.fluid':
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] Setting up run directory.
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Num of Options: 4
+Num of Runs: 100
+Size of data: 160
+
+real	0m0.009s
+user	0m0.003s
+sys	0m0.000s
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Loading file "in_5K.fluid"...
+Number of cells: 4725
+Grids steps over x, y, z: 0.00866667 0.00857143 0.00866667
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] No archive for input 'test' available, skipping input setup.
+Number of particles: 4800
+[PARSEC] Done.
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/swaptions/inst/amd64-linux.gcc/bin/swaptions -ns 1 -sm 5 -nt 1':
+Saving file "out.fluid"...
+
+real	0m0.052s
+user	0m0.021s
+sys	0m0.016s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Swaption 0: [SwaptionPrice: 22.0700566558 StdError: -nan] 
+Number of Simulations: 5,  Number of threads: 1 Number of swaptions: 1
+
+real	0m0.006s
+user	0m0.006s
+sys	0m0.000s
+[PARSEC] Done.
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

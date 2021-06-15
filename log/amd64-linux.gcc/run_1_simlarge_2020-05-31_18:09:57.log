@@ -1,0 +1,71 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+[PARSEC] Run with amd64-linux.gcc binaries and input simlarge started on Sun May 31 18:09:58 EDT 2020.
+[PARSEC] Run with amd64-linux.gcc binaries and input simlarge started on Sun May 31 18:09:58 EDT 2020.
+[PARSEC] Run with amd64-linux.gcc binaries and input simlarge started on Sun May 31 18:09:58 EDT 2020.
+[PARSEC] Benchmarks to run:  parsec.streamcluster
+[PARSEC] Benchmarks to run:  parsec.fluidanimate
+[PARSEC] Benchmarks to run:  parsec.canneal
+
+
+
+[PARSEC] [========== Running benchmark parsec.streamcluster [1] ==========]
+[PARSEC] [========== Running benchmark parsec.fluidanimate [1] ==========]
+[PARSEC] [========== Running benchmark parsec.canneal [1] ==========]
+[PARSEC] Deleting old run directory.
+[PARSEC] Deleting old run directory.
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] No archive for input 'simlarge' available, skipping input setup.
+[PARSEC] Unpacking benchmark input 'simlarge'.
+[PARSEC] Unpacking benchmark input 'simlarge'.
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/kernels/streamcluster/inst/amd64-linux.gcc/bin/streamcluster 10 20 128 16384 16384 1000 none output.txt 1':
+[PARSEC] [---------- Beginning of output ----------]
+in_300K.fluid
+400000.nets
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/kernels/canneal/inst/amd64-linux.gcc/bin/canneal 1 15000 2000 400000.nets 128':
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/fluidanimate/inst/amd64-linux.gcc/bin/fluidanimate 1 5 in_300K.fluid out.fluid':
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] [---------- Beginning of output ----------]
+read 16384 points
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Threadcount: 1
+15000 swaps per temperature step
+start temperature: 2000
+netlist filename: 400000.nets
+number of temperature steps: 128
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Loading file "in_300K.fluid"...
+locs created
+Number of cells: 135424
+Grids steps over x, y, z: 0.00282609 0.0028125 0.00282609
+locs assigned
+Number of particles: 305809
+Just saw element: 100000
+Saving file "out.fluid"...
+
+real	0m4.128s
+user	0m1.266s
+sys	0m0.112s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+Just saw element: 200000
+Just saw element: 300000
+Just saw element: 400000
+netlist created. 400000 elements.
+Final routing is: 6.90232e+08
+
+real	0m14.597s
+user	0m5.710s
+sys	0m0.073s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+
+real	0m15.824s
+user	0m6.472s
+sys	0m0.011s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

@@ -1,0 +1,43 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+[PARSEC] [========== Running benchmark parsec.streamcluster [1] ==========]
+[PARSEC] Run with amd64-linux.gcc binaries and input simlarge started on Wed May 27 13:40:27 EDT 2020.
+[PARSEC] Setting up run directory.
+[PARSEC] Benchmarks to run:  parsec.vips
+[PARSEC] Setting up run directory.
+
+[PARSEC] No archive for input 'simlarge' available, skipping input setup.
+[PARSEC] [========== Running benchmark parsec.vips [1] ==========]
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/kernels/streamcluster/inst/amd64-linux.gcc/bin/streamcluster 10 20 128 16384 16384 1000 none output.txt 1':
+[PARSEC] No archive for input 'simlarge' available, skipping input setup.
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/kernels/streamcluster/inst/amd64-linux.gcc/bin/streamcluster 10 20 128 16384 16384 1000 none output.txt 1':
+[PARSEC] Deleting old run directory.
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+[PARSEC] Setting up run directory.
+read 16384 points
+[PARSEC] Unpacking benchmark input 'simlarge'.
+read 16384 points
+bigben_2662x5500.v
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/vips/inst/amd64-linux.gcc/bin/vips im_benchmark bigben_2662x5500.v output.v':
+[PARSEC] [---------- Beginning of output ----------]
+
+real	0m4.007s
+user	0m3.972s
+sys	0m0.137s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+
+real	0m8.025s
+user	0m8.014s
+sys	0m0.008s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+
+real	0m8.057s
+user	0m8.042s
+sys	0m0.012s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

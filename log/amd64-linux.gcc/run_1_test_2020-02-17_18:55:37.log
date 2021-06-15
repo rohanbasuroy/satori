@@ -1,0 +1,33 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+[PARSEC] No archive for input 'test' available, skipping input setup.
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/kernels/streamcluster/inst/amd64-linux.gcc/bin/streamcluster 2 5 1 10 10 5 none output.txt 1':
+[PARSEC] Run with amd64-linux.gcc binaries and input test started on Mon Feb 17 18:55:37 EST 2020.
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] Benchmarks to run:  parsec.blackscholes
+
+[PARSEC] [========== Running benchmark parsec.blackscholes [1] ==========]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+read 10 points
+
+real	0m0.009s
+user	0m0.005s
+sys	0m0.000s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Deleting old run directory.
+[PARSEC] Done.
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'test'.
+in_4.txt
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/blackscholes/inst/amd64-linux.gcc/bin/blackscholes 1 in_4.txt prices.txt':
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Num of Options: 4
+Num of Runs: 100
+Size of data: 160
+
+real	0m0.004s
+user	0m0.001s
+sys	0m0.002s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

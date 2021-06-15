@@ -1,0 +1,71 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+[PARSEC] Deleting old run directory.
+[PARSEC] Run with amd64-linux.gcc binaries and input test started on Mon Feb 17 19:28:50 EST 2020.
+
+real	0m0.075s
+user	0m0.058s
+sys	0m0.012s
+[PARSEC] Deleting old run directory.
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Setting up run directory.
+[PARSEC] Benchmarks to run:  parsec.vips
+[PARSEC] Done.
+[PARSEC] Unpacking benchmark input 'test'.
+
+T10I4D100K_3.dat
+[PARSEC] [========== Running benchmark parsec.vips [1] ==========]
+[PARSEC] Setting up run directory.
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/freqmine/inst/amd64-linux.gcc/bin/freqmine T10I4D100K_3.dat 1':
+[PARSEC] Deleting old run directory.
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+[PARSEC] Unpacking benchmark input 'test'.
+[PARSEC] Setting up run directory.
+in_4.txt
+[PARSEC] Unpacking benchmark input 'test'.
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/blackscholes/inst/amd64-linux.gcc/bin/blackscholes 1 in_4.txt prices.txt':
+[PARSEC] [---------- Beginning of output ----------]
+barbados_256x288.v
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/vips/inst/amd64-linux.gcc/bin/vips im_benchmark barbados_256x288.v output.v':
+transaction number is 3
+32
+192
+736
+2100
+4676
+8246
+11568
+12916
+11450
+8009
+4368
+1820
+560
+120
+16
+1
+the data preparation cost 0.014015 seconds, the FPgrowth cost 0.011693 seconds
+
+real	0m0.034s
+user	0m0.011s
+sys	0m0.019s
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+[PARSEC] [----------    End of output    ----------]
+Num of Options: 4
+Num of Runs: 100
+Size of data: 160
+
+real	0m0.009s
+user	0m0.004s
+sys	0m0.000s
+[PARSEC] Done.
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+
+real	0m0.079s
+user	0m0.071s
+sys	0m0.000s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

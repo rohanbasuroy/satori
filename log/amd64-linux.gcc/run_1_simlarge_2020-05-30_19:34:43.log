@@ -1,0 +1,51 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+[PARSEC] Unpacking benchmark input 'simlarge'.
+[PARSEC] Run with amd64-linux.gcc binaries and input simlarge started on Sat May 30 19:34:43 EDT 2020.
+[PARSEC] Unpacking benchmark input 'simlarge'.
+[PARSEC] Benchmarks to run:  parsec.streamcluster
+
+in_300K.fluid
+in_300K.fluid
+[PARSEC] [========== Running benchmark parsec.streamcluster [1] ==========]
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/fluidanimate/inst/amd64-linux.gcc/bin/fluidanimate 1 5 in_300K.fluid out.fluid':
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/fluidanimate/inst/amd64-linux.gcc/bin/fluidanimate 1 5 in_300K.fluid out.fluid':
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] Deleting old run directory.
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Loading file "in_300K.fluid"...
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Loading file "in_300K.fluid"...
+[PARSEC] Setting up run directory.
+[PARSEC] No archive for input 'simlarge' available, skipping input setup.
+Number of cells: 135424
+Number of cells: 135424
+Grids steps over x, y, z: 0.00282609 0.0028125 0.00282609
+Grids steps over x, y, z: 0.00282609 0.0028125 0.00282609
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/kernels/streamcluster/inst/amd64-linux.gcc/bin/streamcluster 10 20 128 16384 16384 1000 none output.txt 1':
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+read 16384 points
+Number of particles: 305809
+Number of particles: 305809
+Saving file "out.fluid"...
+Saving file "out.fluid"...
+
+real	0m4.662s
+user	0m1.460s
+sys	0m0.096s
+
+real	0m4.677s
+user	0m1.444s
+sys	0m0.111s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+[PARSEC] Done.
+
+real	0m13.718s
+user	0m6.554s
+sys	0m0.000s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

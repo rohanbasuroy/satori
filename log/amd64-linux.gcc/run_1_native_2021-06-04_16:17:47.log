@@ -1,0 +1,23 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+[PARSEC] Run with amd64-linux.gcc binaries and input native started on Fri Jun 4 16:17:47 EDT 2021.
+[PARSEC] Benchmarks to run:  parsec.blackscholes
+
+[PARSEC] [========== Running benchmark parsec.blackscholes [1] ==========]
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'native'.
+in_10M.txt
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/blackscholes/inst/amd64-linux.gcc/bin/blackscholes 1 in_10M.txt prices.txt':
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Num of Options: 10000000
+Num of Runs: 100
+Size of data: 400000000
+ERROR: Unable to open file prices.txt.
+
+real	1m41.273s
+user	1m40.718s
+sys	0m0.520s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

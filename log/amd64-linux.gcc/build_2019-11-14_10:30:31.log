@@ -1,0 +1,171 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 BUILD LOGFILE ==========]
+
+[PARSEC] Build amd64-linux.gcc started on Thu Nov 14 10:30:31 EST 2019.
+[PARSEC] Packages to build:  parsec.bodytrack
+
+[PARSEC] [========== Building package parsec.bodytrack [1] ==========]
+[PARSEC] [---------- Analyzing package parsec.bodytrack ----------]
+[PARSEC] parsec.bodytrack does not depend on any other packages.
+[PARSEC] [---------- Building package parsec.bodytrack ----------]
+[PARSEC] Removing old build directory.
+[PARSEC] Running 'env CXXFLAGS=-O3 -g -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=3.0-beta-20150206 -fexceptions /home/rohan/uforea/parsec-3.0/pkgs/apps/bodytrack/src/configure --enable-threads --disable-openmp --disable-tbb --prefix=/home/rohan/uforea/parsec-3.0/pkgs/apps/bodytrack/inst/amd64-linux.gcc':
+checking for a BSD-compatible install... /home/rohan/uforea/parsec-3.0/bin/install -c
+checking whether build environment is sane... yes
+checking for gawk... gawk
+checking whether /usr/bin/make sets $(MAKE)... yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for style of include used by /usr/bin/make... GNU
+checking for gcc... /usr/bin/gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether /usr/bin/gcc accepts -g... yes
+checking for /usr/bin/gcc option to accept ISO C89... none needed
+checking dependency style of /usr/bin/gcc... gcc3
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ld used by /usr/bin/gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for /usr/bin/ld option to reload object files... -r
+checking for BSD-compatible nm... /usr/bin/nm -B
+checking whether ln -s works... yes
+checking how to recognise dependent libraries... pass_all
+checking how to run the C preprocessor... /usr/bin/cpp
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking dlfcn.h usability... yes
+checking dlfcn.h presence... yes
+checking for dlfcn.h... yes
+checking whether we are using the GNU C++ compiler... yes
+checking whether /usr/bin/g++ accepts -g... yes
+checking dependency style of /usr/bin/g++... gcc3
+checking how to run the C++ preprocessor... /usr/bin/g++ -E
+checking for g77... no
+checking for f77... f77
+checking whether we are using the GNU Fortran 77 compiler... yes
+checking whether f77 accepts -g... yes
+checking the maximum length of command line arguments... 32768
+checking command to parse /usr/bin/nm -B output from /usr/bin/gcc object... ok
+checking for objdir... .libs
+checking for ar... /usr/bin/ar
+checking for ranlib... /usr/bin/ranlib
+checking for strip... /usr/bin/strip
+checking if /usr/bin/gcc supports -fno-rtti -fno-exceptions... no
+checking for /usr/bin/gcc option to produce PIC... -fPIC
+checking if /usr/bin/gcc PIC flag -fPIC works... yes
+checking if /usr/bin/gcc static flag -static works... yes
+checking if /usr/bin/gcc supports -c -o file.o... yes
+checking whether the /usr/bin/gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+configure: creating libtool
+appending configuration tag "CXX" to libtool
+checking for ld used by /usr/bin/g++... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the /usr/bin/g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for /usr/bin/g++ option to produce PIC... -fPIC
+checking if /usr/bin/g++ PIC flag -fPIC works... yes
+checking if /usr/bin/g++ static flag -static works... yes
+checking if /usr/bin/g++ supports -c -o file.o... yes
+checking whether the /usr/bin/g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+appending configuration tag "F77" to libtool
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for f77 option to produce PIC... -fPIC
+checking if f77 PIC flag -fPIC works... yes
+checking if f77 static flag -static works... yes
+checking if f77 supports -c -o file.o... yes
+checking whether the f77 linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether we are using the GNU C++ compiler... (cached) yes
+checking whether /usr/bin/g++ accepts -g... (cached) yes
+checking dependency style of /usr/bin/g++... (cached) gcc3
+checking for a BSD-compatible install... /home/rohan/uforea/parsec-3.0/bin/install -c
+checking whether ln -s works... yes
+checking whether /usr/bin/make sets $(MAKE)... (cached) yes
+checking for main in -lpthread... yes
+checking pthread.h usability... yes
+checking pthread.h presence... yes
+checking for pthread.h... yes
+checking for stdint.h... (cached) yes
+checking for ANSI C header files... (cached) yes
+checking for stdbool.h that conforms to C99... yes
+checking for _Bool... yes
+checking whether time.h and sys/time.h may both be included... yes
+checking for an ANSI C-conforming const... yes
+checking for inline... inline
+checking for memset... yes
+checking for sqrt... no
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating FlexImageLib/Makefile
+config.status: creating TrackingBenchmark/Makefile
+config.status: creating TrackingBenchmark/threads/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+[PARSEC] Running 'env CXXFLAGS=-O3 -g -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=3.0-beta-20150206 -fexceptions /usr/bin/make':
+/usr/bin/make  all-recursive
+make[1]: Entering directory '/home/rohan/uforea/parsec-3.0/pkgs/apps/bodytrack/obj/amd64-linux.gcc'
+Making all in FlexImageLib
+make[2]: Entering directory '/home/rohan/uforea/parsec-3.0/pkgs/apps/bodytrack/obj/amd64-linux.gcc/FlexImageLib'
+if /bin/bash ../libtool --tag=CXX --mode=compile /usr/bin/g++ -DHAVE_CONFIG_H -I. -I/home/rohan/uforea/parsec-3.0/pkgs/apps/bodytrack/src/FlexImageLib -I..     -O3 -g -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=3.0-beta-20150206 -fexceptions -Wall -Wno-unknown-pragmas -MT FlexImage.lo -MD -MP -MF ".deps/FlexImage.Tpo" -c -o FlexImage.lo /home/rohan/uforea/parsec-3.0/pkgs/apps/bodytrack/src/FlexImageLib/FlexImage.cpp; \
+then mv -f ".deps/FlexImage.Tpo" ".deps/FlexImage.Plo"; else rm -f ".deps/FlexImage.Tpo"; exit 1; fi
+mkdir .libs
+ /usr/bin/g++ -DHAVE_CONFIG_H -I. -I/home/rohan/uforea/parsec-3.0/pkgs/apps/bodytrack/src/FlexImageLib -I.. -O3 -g -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=3.0-beta-20150206 -fexceptions -Wall -Wno-unknown-pragmas -MT FlexImage.lo -MD -MP -MF .deps/FlexImage.Tpo -c /home/rohan/uforea/parsec-3.0/pkgs/apps/bodytrack/src/FlexImageLib/FlexImage.cpp  -fPIC -DPIC -o .libs/FlexImage.o
+ /usr/bin/g++ -DHAVE_CONFIG_H -I. -I/home/rohan/uforea/parsec-3.0/pkgs/apps/bodytrack/src/FlexImageLib -I.. -O3 -g -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=3.0-beta-20150206 -fexceptions -Wall -Wno-unknown-pragmas -MT FlexImage.lo -MD -MP -MF .deps/FlexImage.Tpo -c /home/rohan/uforea/parsec-3.0/pkgs/apps/bodytrack/src/FlexImageLib/FlexImage.cpp -o FlexImage.o >/dev/null 2>&1
+if /bin/bash ../libtool --tag=CXX --mode=compile /usr/bin/g++ -DHAVE_CONFIG_H -I. -I/home/rohan/uforea/parsec-3.0/pkgs/apps/bodytrack/src/FlexImageLib -I..     -O3 -g -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=3.0-beta-20150206 -fexceptions -Wall -Wno-unknown-pragmas -MT FlexIO.lo -MD -MP -MF ".deps/FlexIO.Tpo" -c -o FlexIO.lo /home/rohan/uforea/parsec-3.0/pkgs/apps/bodytrack/src/FlexImageLib/FlexIO.cpp; \
+then mv -f ".deps/FlexIO.Tpo" ".deps/FlexIO.Plo"; else rm -f ".deps/FlexIO.Tpo"; exit 1; fi
+ /usr/bin/g++ -DHAVE_CONFIG_H -I. -I/home/rohan/uforea/parsec-3.0/pkgs/apps/bodytrack/src/FlexImageLib -I.. -O3 -g -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=3.0-beta-20150206 -fexceptions -Wall -Wno-unknown-pragmas -MT FlexIO.lo -MD -MP -MF .deps/FlexIO.Tpo -c /home/rohan/uforea/parsec-3.0/pkgs/apps/bodytrack/src/FlexImageLib/FlexIO.cpp  -fPIC -DPIC -o .libs/FlexIO.o
+ /usr/bin/g++ -DHAVE_CONFIG_H -I. -I/home/rohan/uforea/parsec-3.0/pkgs/apps/bodytrack/src/FlexImageLib -I.. -O3 -g -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=3.0-beta-20150206 -fexceptions -Wall -Wno-unknown-pragmas -MT FlexIO.lo -MD -MP -MF .deps/FlexIO.Tpo -c /home/rohan/uforea/parsec-3.0/pkgs/apps/bodytrack/src/FlexImageLib/FlexIO.cpp -o FlexIO.o >/dev/null 2>&1
+/bin/bash ../libtool --tag=CXX --mode=link /usr/bin/g++  -O3 -g -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=3.0-beta-20150206 -fexceptions -Wall -Wno-unknown-pragmas  -L/usr/lib64 -L/usr/lib -o libflex.la   FlexImage.lo FlexIO.lo  -lpthread 
+/usr/bin/ar cru .libs/libflex.a .libs/FlexImage.o .libs/FlexIO.o
+/usr/bin/ranlib .libs/libflex.a
+creating libflex.la
+(cd .libs && rm -f libflex.la && ln -s ../libflex.la libflex.la)
+make[2]: Leaving directory '/home/rohan/uforea/parsec-3.0/pkgs/apps/bodytrack/obj/amd64-linux.gcc/FlexImageLib'
+Making all in TrackingBenchmark
+make[2]: Entering directory '/home/rohan/uforea/parsec-3.0/pkgs/apps/bodytrack/obj/amd64-linux.gcc/TrackingBenchmark'
+Making all in threads
+make[3]: Entering directory '/home/rohan/uforea/parsec-3.0/pkgs/apps/bodytrack/obj/amd64-linux.gcc/TrackingBenchmark/threads'
+if /bin/bash ../../libtool --tag=CXX --mode=compile /usr/bin/g++ -DHAVE_CONFIG_H -I. -I/home/rohan/uforea/parsec-3.0/pkgs/apps/bodytrack/src/TrackingBenchmark/threads -I../..  -pthread   -O3 -g -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=3.0-beta-20150206 -fexceptions -Wall -Wno-unknown-pragmas -MT Thread.lo -MD -MP -MF ".deps/Thread.Tpo" -c -o Thread.lo /home/rohan/uforea/parsec-3.0/pkgs/apps/bodytrack/src/TrackingBenchmark/threads/Thread.cpp; \
+then mv -f ".deps/Thread.Tpo" ".deps/Thread.Plo"; else rm -f ".deps/Thread.Tpo"; exit 1; fi
+mkdir .libs
+ /usr/bin/g++ -DHAVE_CONFIG_H -I. -I/home/rohan/uforea/parsec-3.0/pkgs/apps/bodytrack/src/TrackingBenchmark/threads -I../.. -pthread -O3 -g -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=3.0-beta-20150206 -fexceptions -Wall -Wno-unknown-pragmas -MT Thread.lo -MD -MP -MF .deps/Thread.Tpo -c /home/rohan/uforea/parsec-3.0/pkgs/apps/bodytrack/src/TrackingBenchmark/threads/Thread.cpp  -fPIC -DPIC -o .libs/Thread.o
+ /usr/bin/g++ -DHAVE_CONFIG_H -I. -I/home/rohan/uforea/parsec-3.0/pkgs/apps/bodytrack/src/TrackingBenchmark/threads -I../.. -pthread -O3 -g -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=3.0-beta-20150206 -fexceptions -Wall -Wno-unknown-pragmas -MT Thread.lo -MD -MP -MF .deps/Thread.Tpo -c /home/rohan/uforea/parsec-3.0/pkgs/apps/bodytrack/src/TrackingBenchmark/threads/Thread.cpp -o Thread.o >/dev/null 2>&1
+if /bin/bash ../../libtool --tag=CXX --mode=compile /usr/bin/g++ -DHAVE_CONFIG_H -I. -I/home/rohan/uforea/parsec-3.0/pkgs/apps/bodytrack/src/TrackingBenchmark/threads -I../..  -pthread   -O3 -g -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=3.0-beta-20150206 -fexceptions -Wall -Wno-unknown-pragmas -MT ThreadGroup.lo -MD -MP -MF ".deps/ThreadGroup.Tpo" -c -o ThreadGroup.lo /home/rohan/uforea/parsec-3.0/pkgs/apps/bodytrack/src/TrackingBenchmark/threads/ThreadGroup.cpp; \
+then mv -f ".deps/ThreadGroup.Tpo" ".deps/ThreadGroup.Plo"; else rm -f ".deps/ThreadGroup.Tpo"; exit 1; fi
+ /usr/bin/g++ -DHAVE_CONFIG_H -I. -I/home/rohan/uforea/parsec-3.0/pkgs/apps/bodytrack/src/TrackingBenchmark/threads -I../.. -pthread -O3 -g -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=3.0-beta-20150206 -fexceptions -Wall -Wno-unknown-pragmas -MT ThreadGroup.lo -MD -MP -MF .deps/ThreadGroup.Tpo -c /home/rohan/uforea/parsec-3.0/pkgs/apps/bodytrack/src/TrackingBenchmark/threads/ThreadGroup.cpp  -fPIC -DPIC -o .libs/ThreadGroup.o
+ /usr/bin/g++ -DHAVE_CONFIG_H -I. -I/home/rohan/uforea/parsec-3.0/pkgs/apps/bodytrack/src/TrackingBenchmark/threads -I../.. -pthread -O3 -g -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=3.0-beta-20150206 -fexceptions -Wall -Wno-unknown-pragmas -MT ThreadGroup.lo -MD -MP -MF .deps/ThreadGroup.Tpo -c /home/rohan/uforea/parsec-3.0/pkgs/apps/bodytrack/src/TrackingBenchmark/threads/ThreadGroup.cpp -o ThreadGroup.o >/dev/null 2>&1
+if /bin/bash ../../libtool --tag=CXX --mode=compile /usr/bin/g++ -DHAVE_CONFIG_H -I. -I/home/rohan/uforea/parsec-3.0/pkgs/apps/bodytrack/src/TrackingBenchmark/threads -I../..  -pthread   -O3 -g -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=3.0-beta-20150206 -fexceptions -Wall -Wno-unknown-pragmas -MT WorkerGroup.lo -MD -MP -MF ".deps/WorkerGroup.Tpo" -c -o WorkerGroup.lo /home/rohan/uforea/parsec-3.0/pkgs/apps/bodytrack/src/TrackingBenchmark/threads/WorkerGroup.cpp; \
+then mv -f ".deps/WorkerGroup.Tpo" ".deps/WorkerGroup.Plo"; else rm -f ".deps/WorkerGroup.Tpo"; exit 1; fi
+ /usr/bin/g++ -DHAVE_CONFIG_H -I. -I/home/rohan/uforea/parsec-3.0/pkgs/apps/bodytrack/src/TrackingBenchmark/threads -I../.. -pthread -O3 -g -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=3.0-beta-20150206 -fexceptions -Wall -Wno-unknown-pragmas -MT WorkerGroup.lo -MD -MP -MF .deps/WorkerGroup.Tpo -c /home/rohan/uforea/parsec-3.0/pkgs/apps/bodytrack/src/TrackingBenchmark/threads/WorkerGroup.cpp  -fPIC -DPIC -o .libs/WorkerGroup.o
+Makefile:282: recipe for target 'WorkerGroup.lo' failed
+make[3]: Leaving directory '/home/rohan/uforea/parsec-3.0/pkgs/apps/bodytrack/obj/amd64-linux.gcc/TrackingBenchmark/threads'
+Makefile:376: recipe for target 'all-recursive' failed
+make[2]: Leaving directory '/home/rohan/uforea/parsec-3.0/pkgs/apps/bodytrack/obj/amd64-linux.gcc/TrackingBenchmark'
+Makefile:258: recipe for target 'all-recursive' failed
+make[1]: Leaving directory '/home/rohan/uforea/parsec-3.0/pkgs/apps/bodytrack/obj/amd64-linux.gcc'
+Makefile:187: recipe for target 'all' failed
+[PARSEC] Error: 'env CXXFLAGS=-O3 -g -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=3.0-beta-20150206 -fexceptions /usr/bin/make' failed.

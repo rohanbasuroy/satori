@@ -1,0 +1,23 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 BUILD LOGFILE ==========]
+
+[PARSEC] Build amd64-linux.gcc started on Wed Nov 13 16:21:24 EST 2019.
+[PARSEC] Packages to build:  parsec.freqmine
+
+[PARSEC] [========== Building package parsec.freqmine [1] ==========]
+[PARSEC] [---------- Analyzing package parsec.freqmine ----------]
+[PARSEC] parsec.freqmine does not depend on any other packages.
+[PARSEC] [---------- Building package parsec.freqmine ----------]
+[PARSEC] Copying source code of package parsec.freqmine.
+[PARSEC] Running 'env CXXFLAGS=-O3 -g -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=3.0-beta-20150206 -fopenmp /usr/bin/make':
+/usr/bin/g++ -O3 -g -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=3.0-beta-20150206 -fopenmp -Wno-deprecated -O2 -c fpmax.cpp -o fpgrowth.o
+/usr/bin/g++ -O3 -g -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=3.0-beta-20150206 -fopenmp -Wno-deprecated -O2 -c data.cpp
+/usr/bin/g++ -O3 -g -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=3.0-beta-20150206 -fopenmp -Wno-deprecated -O2 -c fp_tree.cpp
+/usr/bin/g++ -O3 -g -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=3.0-beta-20150206 -fopenmp -Wno-deprecated -O2 -c buffer.cpp
+/usr/bin/g++ -O3 -g -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=3.0-beta-20150206 -fopenmp -Wno-deprecated -O2 -c fsout.cpp
+/usr/bin/g++ -O3 -g -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=3.0-beta-20150206 -fopenmp -Wno-deprecated -O2 -c fp_node.cpp
+/usr/bin/g++ -O3 -g -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=3.0-beta-20150206 -fopenmp -Wno-deprecated -O2 -c wtime.cpp -o wtime.o
+/usr/bin/g++ -O3 -g -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=3.0-beta-20150206 -fopenmp -Wno-deprecated -O2 -L/usr/lib64 -L/usr/lib fpgrowth.o data.o fp_tree.o buffer.o fsout.o fp_node.o wtime.o  -o freqmine
+[PARSEC] Running 'env CXXFLAGS=-O3 -g -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=3.0-beta-20150206 -fopenmp /usr/bin/make install':
+mkdir -p /home/rohan/uforea/parsec-3.0/pkgs/apps/freqmine/inst/amd64-linux.gcc/bin
+cp -f freqmine /home/rohan/uforea/parsec-3.0/pkgs/apps/freqmine/inst/amd64-linux.gcc/bin/freqmine
+[PARSEC] Done.

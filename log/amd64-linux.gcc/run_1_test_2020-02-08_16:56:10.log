@@ -1,0 +1,107 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+[PARSEC] [========== Running benchmark parsec.streamcluster [1] ==========]
+[PARSEC] Setting up run directory.
+[PARSEC] Setting up run directory.
+
+[PARSEC] Run with amd64-linux.gcc binaries and input test started on Sat Feb 8 16:56:10 EST 2020.
+[PARSEC] [========== Running benchmark parsec.freqmine [1] ==========]
+[PARSEC] Benchmarks to run:  parsec.canneal
+[PARSEC] Unpacking benchmark input 'test'.
+[PARSEC] Deleting old run directory.
+[PARSEC] Unpacking benchmark input 'test'.
+
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] [========== Running benchmark parsec.canneal [1] ==========]
+in_4.txt
+in_5K.fluid
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/fluidanimate/inst/amd64-linux.gcc/bin/fluidanimate 1 1 in_5K.fluid out.fluid':
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/blackscholes/inst/amd64-linux.gcc/bin/blackscholes 1 in_4.txt prices.txt':
+[PARSEC] Setting up run directory.
+[PARSEC] No archive for input 'test' available, skipping input setup.
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] Deleting old run directory.
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/kernels/streamcluster/inst/amd64-linux.gcc/bin/streamcluster 2 5 1 10 10 5 none output.txt 1':
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Num of Options: 4
+Num of Runs: 100
+Size of data: 160
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Loading file "in_5K.fluid"...
+[PARSEC] Unpacking benchmark input 'test'.
+
+real	0m0.005s
+user	0m0.000s
+sys	0m0.006s
+[PARSEC] [---------- Beginning of output ----------]
+Number of cells: 4725
+Grids steps over x, y, z: 0.00866667 0.00857143 0.00866667
+[PARSEC] Setting up run directory.
+[PARSEC] [----------    End of output    ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+read 10 points
+
+real	0m0.008s
+user	0m0.005s
+sys	0m0.004s
+T10I4D100K_3.dat
+[PARSEC] Done.
+[PARSEC] Unpacking benchmark input 'test'.
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/freqmine/inst/amd64-linux.gcc/bin/freqmine T10I4D100K_3.dat 1':
+[PARSEC] Done.
+10.nets
+[PARSEC] [---------- Beginning of output ----------]
+Number of particles: 4800
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/kernels/canneal/inst/amd64-linux.gcc/bin/canneal 1 5 100 10.nets 1':
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Threadcount: 1
+5 swaps per temperature step
+start temperature: 100
+netlist filename: 10.nets
+number of temperature steps: 1
+locs created
+locs assigned
+netlist created. 10 elements.
+Final routing is: 132
+
+real	0m0.008s
+user	0m0.004s
+sys	0m0.004s
+Saving file "out.fluid"...
+[PARSEC] [----------    End of output    ----------]
+
+real	0m0.063s
+user	0m0.042s
+sys	0m0.022s
+transaction number is 3
+32
+192
+736
+2100
+4676
+8246
+11568
+12916
+11450
+8009
+4368
+1820
+560
+120
+16
+1
+the data preparation cost 0.015058 seconds, the FPgrowth cost 0.008572 seconds
+[PARSEC] Done.
+
+real	0m0.031s
+user	0m0.024s
+sys	0m0.006s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+[PARSEC] Done.

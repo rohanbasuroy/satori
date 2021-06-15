@@ -1,0 +1,76 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+[PARSEC] Run with amd64-linux.gcc binaries and input simlarge started on Thu May 28 00:37:32 EDT 2020.
+[PARSEC] Benchmarks to run:  parsec.streamcluster
+[PARSEC] Benchmarks to run:  parsec.streamcluster
+[PARSEC] Run with amd64-linux.gcc binaries and input simlarge started on Thu May 28 00:37:32 EDT 2020.
+
+
+[PARSEC] Benchmarks to run:  parsec.freqmine
+[PARSEC] [========== Running benchmark parsec.streamcluster [1] ==========]
+[PARSEC] [========== Running benchmark parsec.streamcluster [1] ==========]
+
+[PARSEC] [========== Running benchmark parsec.freqmine [1] ==========]
+[PARSEC] Deleting old run directory.
+[PARSEC] Deleting old run directory.
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] No archive for input 'simlarge' available, skipping input setup.
+[PARSEC] No archive for input 'simlarge' available, skipping input setup.
+[PARSEC] Setting up run directory.
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/kernels/streamcluster/inst/amd64-linux.gcc/bin/streamcluster 10 20 128 16384 16384 1000 none output.txt 1':
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/kernels/streamcluster/inst/amd64-linux.gcc/bin/streamcluster 10 20 128 16384 16384 1000 none output.txt 1':
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] Unpacking benchmark input 'simlarge'.
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+kosarak_990k.dat
+read 16384 points
+read 16384 points
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/freqmine/inst/amd64-linux.gcc/bin/freqmine kosarak_990k.dat 790':
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+transaction number is 990002
+1548
+13483
+46649
+131381
+415489
+1239344
+2985564
+5696308
+8709873
+10789491
+10902648
+9011183
+6094236
+3374161
+1530954
+564958
+165173
+36535
+5727
+578
+33
+1
+the data preparation cost 0.656631 seconds, the FPgrowth cost 5.256106 seconds
+
+real	0m5.941s
+user	0m5.400s
+sys	0m0.080s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+
+real	0m15.797s
+user	0m7.310s
+sys	0m0.004s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+
+real	0m15.838s
+user	0m7.346s
+sys	0m0.004s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

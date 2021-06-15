@@ -1,0 +1,42 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+[PARSEC] Setting up run directory.
+[PARSEC] Run with amd64-linux.gcc binaries and input test started on Mon Feb 17 19:37:58 EST 2020.
+[PARSEC] Setting up run directory.
+[PARSEC] Benchmarks to run:  parsec.vips
+
+[PARSEC] Unpacking benchmark input 'test'.
+[PARSEC] No archive for input 'test' available, skipping input setup.
+[PARSEC] [========== Running benchmark parsec.vips [1] ==========]
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/kernels/streamcluster/inst/amd64-linux.gcc/bin/streamcluster 2 5 1 10 10 5 none output.txt 1':
+barbados_256x288.v
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] Deleting old run directory.
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/vips/inst/amd64-linux.gcc/bin/vips im_benchmark barbados_256x288.v output.v':
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+read 10 points
+
+real	0m0.006s
+user	0m0.004s
+sys	0m0.001s
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] Setting up run directory.
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+format_for_file: file "barbados_256x288.v" not found
+
+real	0m0.004s
+user	0m0.000s
+sys	0m0.004s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Unpacking benchmark input 'test'.
+[PARSEC] Done.
+barbados_256x288.v
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/vips/inst/amd64-linux.gcc/bin/vips im_benchmark barbados_256x288.v output.v':
+[PARSEC] [---------- Beginning of output ----------]
+
+real	0m0.104s
+user	0m0.088s
+sys	0m0.015s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

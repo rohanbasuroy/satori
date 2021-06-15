@@ -1,0 +1,55 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+[PARSEC] Benchmarks to run:  parsec.streamcluster
+[PARSEC] Run with amd64-linux.gcc binaries and input test started on Mon Feb 17 19:38:54 EST 2020.
+[PARSEC] Benchmarks to run:  parsec.streamcluster
+
+[PARSEC] Run with amd64-linux.gcc binaries and input test started on Mon Feb 17 19:38:54 EST 2020.
+
+[PARSEC] [========== Running benchmark parsec.streamcluster [1] ==========]
+[PARSEC] Benchmarks to run:  parsec.blackscholes
+[PARSEC] [========== Running benchmark parsec.streamcluster [1] ==========]
+
+[PARSEC] Deleting old run directory.
+[PARSEC] [========== Running benchmark parsec.blackscholes [1] ==========]
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] No archive for input 'test' available, skipping input setup.
+[PARSEC] Setting up run directory.
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/kernels/streamcluster/inst/amd64-linux.gcc/bin/streamcluster 2 5 1 10 10 5 none output.txt 1':
+[PARSEC] No archive for input 'test' available, skipping input setup.
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/kernels/streamcluster/inst/amd64-linux.gcc/bin/streamcluster 2 5 1 10 10 5 none output.txt 1':
+[PARSEC] Unpacking benchmark input 'test'.
+[PARSEC] [---------- Beginning of output ----------]
+in_4.txt
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+read 10 points
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/blackscholes/inst/amd64-linux.gcc/bin/blackscholes 1 in_4.txt prices.txt':
+
+real	0m0.011s
+user	0m0.001s
+sys	0m0.004s
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+read 10 points
+
+real	0m0.014s
+user	0m0.001s
+sys	0m0.004s
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] [----------    End of output    ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+[PARSEC] Done.
+[PARSEC] Done.
+Num of Options: 4
+Num of Runs: 100
+Size of data: 160
+
+real	0m0.009s
+user	0m0.001s
+sys	0m0.002s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

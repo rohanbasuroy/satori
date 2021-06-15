@@ -1,0 +1,40 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+[PARSEC] Run with amd64-linux.gcc binaries and input native started on Fri Jun 4 14:49:46 EDT 2021.
+[PARSEC] Benchmarks to run:  parsec.freqmine
+
+[PARSEC] [========== Running benchmark parsec.freqmine [1] ==========]
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'native'.
+webdocs_250k.dat
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/freqmine/inst/amd64-linux.gcc/bin/freqmine webdocs_250k.dat 11000':
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+transaction number is 250000
+829
+28599
+363898
+2699198
+13410070
+47495313
+124190838
+245065199
+369974305
+430373350
+386138019
+265795578
+138598934
+53551164
+14790217
+2753445
+311877
+17498
+269
+the data preparation cost 1.206613 seconds, the FPgrowth cost 585.713922 seconds
+
+real	9m46.933s
+user	9m46.050s
+sys	0m0.632s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

@@ -1,0 +1,20 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+[PARSEC] Run with amd64-linux.gcc binaries and input simlarge started on Mon Feb 17 18:05:49 EST 2020.
+[PARSEC] Benchmarks to run:  parsec.swaptions
+
+[PARSEC] [========== Running benchmark parsec.swaptions [1] ==========]
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] No archive for input 'simlarge' available, skipping input setup.
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/swaptions/inst/amd64-linux.gcc/bin/swaptions -ns 64 -sm 40000 -nt 1':
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Number of particles: 305809
+Saving file "out.fluid"...
+
+real	0m2.823s
+user	0m2.503s
+sys	0m0.320s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

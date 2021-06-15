@@ -1,0 +1,64 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+[PARSEC] Run with amd64-linux.gcc binaries and input simlarge started on Mon Jun 1 07:19:15 EDT 2020.
+[PARSEC] Run with amd64-linux.gcc binaries and input simlarge started on Mon Jun 1 07:19:15 EDT 2020.
+[PARSEC] Benchmarks to run:  parsec.fluidanimate
+[PARSEC] Benchmarks to run:  parsec.blackscholes
+
+[PARSEC] Run with amd64-linux.gcc binaries and input simlarge started on Mon Jun 1 07:19:15 EDT 2020.
+
+[PARSEC] [========== Running benchmark parsec.fluidanimate [1] ==========]
+[PARSEC] Benchmarks to run:  parsec.blackscholes
+[PARSEC] [========== Running benchmark parsec.blackscholes [1] ==========]
+
+[PARSEC] Deleting old run directory.
+[PARSEC] [========== Running benchmark parsec.blackscholes [1] ==========]
+[PARSEC] Deleting old run directory.
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'simlarge'.
+[PARSEC] Unpacking benchmark input 'simlarge'.
+[PARSEC] Unpacking benchmark input 'simlarge'.
+in_300K.fluid
+in_64K.txt
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/blackscholes/inst/amd64-linux.gcc/bin/blackscholes 1 in_64K.txt prices.txt':
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/fluidanimate/inst/amd64-linux.gcc/bin/fluidanimate 1 5 in_300K.fluid out.fluid':
+in_64K.txt
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/blackscholes/inst/amd64-linux.gcc/bin/blackscholes 1 in_64K.txt prices.txt':
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Loading file "in_300K.fluid"...
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Number of cells: 135424
+Grids steps over x, y, z: 0.00282609 0.0028125 0.00282609
+Number of particles: 305809
+Num of Options: 65536
+Num of Runs: 100
+Size of data: 2621440
+
+real	0m1.550s
+user	0m0.522s
+sys	0m0.000s
+Num of Options: 65536
+Num of Runs: 100
+Size of data: 2621440
+
+real	0m1.563s
+user	0m0.515s
+sys	0m0.008s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+[PARSEC] Done.
+Saving file "out.fluid"...
+
+real	0m2.565s
+user	0m1.240s
+sys	0m0.112s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

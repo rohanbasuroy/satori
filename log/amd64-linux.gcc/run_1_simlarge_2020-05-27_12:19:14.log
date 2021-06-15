@@ -1,0 +1,51 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+
+
+[PARSEC] Run with amd64-linux.gcc binaries and input simlarge started on Wed May 27 12:19:14 EDT 2020.
+[PARSEC] Run with amd64-linux.gcc binaries and input simlarge started on Wed May 27 12:19:14 EDT 2020.
+[PARSEC] [========== Running benchmark parsec.vips [1] ==========]
+[PARSEC] Benchmarks to run:  parsec.streamcluster
+[PARSEC] Benchmarks to run:  parsec.streamcluster
+
+
+[PARSEC] Deleting old run directory.
+[PARSEC] [========== Running benchmark parsec.streamcluster [1] ==========]
+[PARSEC] [========== Running benchmark parsec.streamcluster [1] ==========]
+[PARSEC] Setting up run directory.
+[PARSEC] Deleting old run directory.
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'simlarge'.
+[PARSEC] Setting up run directory.
+[PARSEC] No archive for input 'simlarge' available, skipping input setup.
+[PARSEC] No archive for input 'simlarge' available, skipping input setup.
+bigben_2662x5500.v
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/kernels/streamcluster/inst/amd64-linux.gcc/bin/streamcluster 10 20 128 16384 16384 1000 none output.txt 1':
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/kernels/streamcluster/inst/amd64-linux.gcc/bin/streamcluster 10 20 128 16384 16384 1000 none output.txt 1':
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+read 16384 points
+read 16384 points
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/vips/inst/amd64-linux.gcc/bin/vips im_benchmark bigben_2662x5500.v output.v':
+[PARSEC] [---------- Beginning of output ----------]
+
+real	0m4.107s
+user	0m4.194s
+sys	0m0.160s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+
+real	0m8.008s
+user	0m8.003s
+sys	0m0.000s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+
+real	0m8.297s
+user	0m8.288s
+sys	0m0.004s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

@@ -1,0 +1,60 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/fluidanimate/inst/amd64-linux.gcc/bin/fluidanimate 1 1 in_5K.fluid out.fluid':
+10.nets
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/kernels/canneal/inst/amd64-linux.gcc/bin/canneal 1 5 100 10.nets 1':
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+read 10 points
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Loading file "in_5K.fluid"...
+Number of cells: 4725
+Grids steps over x, y, z: 0.00866667 0.00857143 0.00866667
+[PARSEC] [---------- Beginning of output ----------]
+Number of particles: 4800
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Threadcount: 1
+5 swaps per temperature step
+start temperature: 100
+netlist filename: 10.nets
+number of temperature steps: 1
+locs created
+locs assigned
+netlist created. 10 elements.
+[PARSEC] Run with amd64-linux.gcc binaries and input test started on Mon Feb 17 18:48:42 EST 2020.
+
+real	0m0.032s
+user	0m0.002s
+sys	0m0.002s
+[PARSEC] Benchmarks to run:  parsec.vips
+[PARSEC] [----------    End of output    ----------]
+Final routing is: 132
+Saving file "out.fluid"...
+
+real	0m0.015s
+user	0m0.001s
+sys	0m0.004s
+
+[PARSEC] Done.
+
+real	0m0.037s
+user	0m0.009s
+sys	0m0.021s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] [========== Running benchmark parsec.vips [1] ==========]
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+[PARSEC] Done.
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'test'.
+barbados_256x288.v
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/vips/inst/amd64-linux.gcc/bin/vips im_benchmark barbados_256x288.v output.v':
+[PARSEC] [---------- Beginning of output ----------]
+format_for_file: file "barbados_256x288.v" not found
+
+real	0m0.016s
+user	0m0.004s
+sys	0m0.000s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

@@ -1,0 +1,73 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+[PARSEC] Unpacking benchmark input 'test'.
+[PARSEC] Run with amd64-linux.gcc binaries and input test started on Sat Feb 8 17:20:58 EST 2020.
+[PARSEC] Benchmarks to run:  parsec.blackscholes
+10.nets
+Saving file "out.fluid"...
+
+
+real	0m0.046s
+user	0m0.038s
+sys	0m0.008s
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/kernels/canneal/inst/amd64-linux.gcc/bin/canneal 1 5 100 10.nets 1':
+[PARSEC] [========== Running benchmark parsec.blackscholes [1] ==========]
+[PARSEC] [---------- Beginning of output ----------]
+transaction number is 3
+32
+192
+736
+2100
+4676
+8246
+11568
+12916
+11450
+8009
+4368
+1820
+560
+120
+16
+1
+the data preparation cost 0.016581 seconds, the FPgrowth cost 0.008062 seconds
+[PARSEC] [----------    End of output    ----------]
+
+real	0m0.031s
+user	0m0.019s
+sys	0m0.011s
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Threadcount: 1
+5 swaps per temperature step
+start temperature: 100
+netlist filename: 10.nets
+number of temperature steps: 1
+locs created
+locs assigned
+netlist created. 10 elements.
+Final routing is: 132
+[PARSEC] Done.
+[PARSEC] Deleting old run directory.
+[PARSEC] [----------    End of output    ----------]
+
+real	0m0.006s
+user	0m0.006s
+sys	0m0.000s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+[PARSEC] Setting up run directory.
+[PARSEC] Done.
+[PARSEC] Unpacking benchmark input 'test'.
+in_4.txt
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/blackscholes/inst/amd64-linux.gcc/bin/blackscholes 1 in_4.txt prices.txt':
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Num of Options: 4
+Num of Runs: 100
+Size of data: 160
+
+real	0m0.004s
+user	0m0.001s
+sys	0m0.003s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

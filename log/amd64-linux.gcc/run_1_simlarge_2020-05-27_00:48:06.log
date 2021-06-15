@@ -1,0 +1,50 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+[PARSEC] Deleting old run directory.
+[PARSEC] Run with amd64-linux.gcc binaries and input simlarge started on Wed May 27 00:48:06 EDT 2020.
+[PARSEC] [========== Running benchmark parsec.streamcluster [1] ==========]
+[PARSEC] Benchmarks to run:  parsec.streamcluster
+
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] [========== Running benchmark parsec.streamcluster [1] ==========]
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'simlarge'.
+[PARSEC] Setting up run directory.
+[PARSEC] No archive for input 'simlarge' available, skipping input setup.
+[PARSEC] No archive for input 'simlarge' available, skipping input setup.
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/kernels/streamcluster/inst/amd64-linux.gcc/bin/streamcluster 10 20 128 16384 16384 1000 none output.txt 1':
+in_300K.fluid
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/kernels/streamcluster/inst/amd64-linux.gcc/bin/streamcluster 10 20 128 16384 16384 1000 none output.txt 1':
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/fluidanimate/inst/amd64-linux.gcc/bin/fluidanimate 1 5 in_300K.fluid out.fluid':
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Loading file "in_300K.fluid"...
+read 16384 points
+read 16384 points
+Number of cells: 135424
+Grids steps over x, y, z: 0.00282609 0.0028125 0.00282609
+Number of particles: 305809
+Saving file "out.fluid"...
+
+real	0m1.648s
+user	0m1.536s
+sys	0m0.112s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+
+real	0m8.121s
+user	0m8.117s
+sys	0m0.000s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+
+real	0m8.368s
+user	0m8.343s
+sys	0m0.020s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

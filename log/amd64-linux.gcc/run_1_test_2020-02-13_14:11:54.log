@@ -1,0 +1,49 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+[PARSEC] Run with amd64-linux.gcc binaries and input test started on Thu Feb 13 14:11:54 EST 2020.
+[PARSEC] Benchmarks to run:  parsec.fluidanimate
+
+[PARSEC] [========== Running benchmark parsec.fluidanimate [1] ==========]
+transaction number is 3
+32
+192
+736
+2100
+4676
+8246
+11568
+12916
+11450
+8009
+4368
+1820
+560
+120
+16
+1
+the data preparation cost 0.016493 seconds, the FPgrowth cost 0.008759 seconds
+
+real	0m0.033s
+user	0m0.020s
+sys	0m0.013s
+[PARSEC] Deleting old run directory.
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'test'.
+in_5K.fluid
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/fluidanimate/inst/amd64-linux.gcc/bin/fluidanimate 1 1 in_5K.fluid out.fluid':
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Loading file "in_5K.fluid"...
+Number of cells: 4725
+Grids steps over x, y, z: 0.00866667 0.00857143 0.00866667
+Number of particles: 4800
+Saving file "out.fluid"...
+
+real	0m0.058s
+user	0m0.038s
+sys	0m0.020s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

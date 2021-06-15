@@ -1,0 +1,41 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+[PARSEC] Benchmarks to run:  parsec.swaptions
+
+[PARSEC] Run with amd64-linux.gcc binaries and input test started on Mon Feb 17 18:54:54 EST 2020.
+[PARSEC] [========== Running benchmark parsec.swaptions [1] ==========]
+[PARSEC] Benchmarks to run:  parsec.fluidanimate
+
+[PARSEC] Deleting old run directory.
+[PARSEC] [========== Running benchmark parsec.fluidanimate [1] ==========]
+[PARSEC] Setting up run directory.
+[PARSEC] Deleting old run directory.
+[PARSEC] No archive for input 'test' available, skipping input setup.
+[PARSEC] Setting up run directory.
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/swaptions/inst/amd64-linux.gcc/bin/swaptions -ns 1 -sm 5 -nt 1':
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] Unpacking benchmark input 'test'.
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+in_5K.fluid
+Swaption 0: [SwaptionPrice: 22.0700566558 StdError: -nan] 
+Number of Simulations: 5,  Number of threads: 1 Number of swaptions: 1
+
+real	0m0.009s
+user	0m0.007s
+sys	0m0.000s
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/fluidanimate/inst/amd64-linux.gcc/bin/fluidanimate 1 1 in_5K.fluid out.fluid':
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Loading file "in_5K.fluid"...
+Number of cells: 4725
+Grids steps over x, y, z: 0.00866667 0.00857143 0.00866667
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+Number of particles: 4800
+Saving file "out.fluid"...
+
+real	0m0.045s
+user	0m0.027s
+sys	0m0.016s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

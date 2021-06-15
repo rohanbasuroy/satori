@@ -1,0 +1,81 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+ry.
+
+[PARSEC] Run with amd64-linux.gcc binaries and input simlarge started on Sun May 3 17:45:32 EDT 2020.
+[PARSEC] Setting up run directory.
+[PARSEC] Benchmarks to run:  parsec.canneal
+
+[PARSEC] [========== Running benchmark parsec.canneal [1] ==========]
+[PARSEC] No archive for input 'simlarge' available, skipping input setup.
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/kernels/streamcluster/inst/amd64-linux.gcc/bin/streamcluster 10 20 128 16384 16384 1000 none output.txt 1':
+[PARSEC] Setting up run directory.
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] Deleting old run directory.
+[PARSEC] Unpacking benchmark input 'simlarge'.
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+[PARSEC] Setting up run directory.
+kosarak_990k.dat
+[PARSEC] Unpacking benchmark input 'simlarge'.
+400000.nets
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/kernels/canneal/inst/amd64-linux.gcc/bin/canneal 1 15000 2000 400000.nets 128':
+[PARSEC] [---------- Beginning of output ----------]
+read 16384 points
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Threadcount: 1
+15000 swaps per temperature step
+start temperature: 2000
+netlist filename: 400000.nets
+number of temperature steps: 128
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/freqmine/inst/amd64-linux.gcc/bin/freqmine kosarak_990k.dat 790':
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+locs created
+locs assigned
+Just saw element: 100000
+Just saw element: 200000
+Just saw element: 300000
+Just saw element: 400000
+netlist created. 400000 elements.
+Final routing is: 6.90232e+08
+
+real	0m5.796s
+user	0m5.714s
+sys	0m0.080s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+transaction number is 990002
+1548
+13483
+46649
+131381
+415489
+1239344
+2985564
+5696308
+8709873
+10789491
+10902648
+9011183
+6094236
+3374161
+1530954
+564958
+165173
+36535
+5727
+578
+33
+1
+the data preparation cost 0.296848 seconds, the FPgrowth cost 5.641349 seconds
+
+real	0m5.941s
+user	0m5.862s
+sys	0m0.076s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+
+real	0m6.820s
+user	0m6.814s
+sys	0m0.004s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

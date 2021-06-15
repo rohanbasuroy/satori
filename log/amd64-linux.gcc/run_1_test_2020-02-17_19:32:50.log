@@ -1,0 +1,6 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+[PARSEC] Run with amd64-linux.gcc binaries and input test started on Mon Feb 17 19:32:50 EST 2020.
+[PARSEC] Benchmarks to run:  parsec.fluidanimate
+
+[PARSEC] [========== Running benchmark parsec.fluidanimate [1] ==========]

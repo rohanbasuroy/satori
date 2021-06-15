@@ -1,0 +1,50 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+Swaption 0: [SwaptionPrice: 22.0700566558 StdError: -nan] 
+Number of Simulations: 5,  Number of threads: 1 Number of swaptions: 1
+
+real	0m0.008s
+user	0m0.004s
+sys	0m0.004s
+[PARSEC] Run with amd64-linux.gcc binaries and input test started on Mon Feb 17 18:57:48 EST 2020.
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Benchmarks to run:  parsec.vips
+[PARSEC] Done.
+
+[PARSEC] [========== Running benchmark parsec.vips [1] ==========]
+transaction number is 3
+32
+192
+736
+2100
+4676
+8246
+11568
+12916
+11450
+8009
+4368
+1820
+560
+120
+16
+1
+the data preparation cost 0.026432 seconds, the FPgrowth cost 0.005733 seconds
+
+real	0m0.036s
+user	0m0.015s
+sys	0m0.000s
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+[PARSEC] Unpacking benchmark input 'test'.
+barbados_256x288.v
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/vips/inst/amd64-linux.gcc/bin/vips im_benchmark barbados_256x288.v output.v':
+[PARSEC] [---------- Beginning of output ----------]
+
+real	0m0.073s
+user	0m0.062s
+sys	0m0.008s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

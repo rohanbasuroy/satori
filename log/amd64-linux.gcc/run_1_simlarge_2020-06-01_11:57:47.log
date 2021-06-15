@@ -1,0 +1,41 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Loading file "in_300K.fluid"...
+[PARSEC] Run with amd64-linux.gcc binaries and input simlarge started on Mon Jun 1 11:57:47 EDT 2020.
+Number of cells: 135424
+Grids steps over x, y, z: 0.00282609 0.0028125 0.00282609
+Number of cells: 135424
+[PARSEC] Benchmarks to run:  parsec.streamcluster
+Grids steps over x, y, z: 0.00282609 0.0028125 0.00282609
+
+[PARSEC] [========== Running benchmark parsec.streamcluster [1] ==========]
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] No archive for input 'simlarge' available, skipping input setup.
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/kernels/streamcluster/inst/amd64-linux.gcc/bin/streamcluster 10 20 128 16384 16384 1000 none output.txt 1':
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+read 16384 points
+Number of particles: 305809
+Number of particles: 305809
+Saving file "out.fluid"...
+Saving file "out.fluid"...
+
+real	0m3.973s
+user	0m1.245s
+sys	0m0.115s
+
+real	0m3.979s
+user	0m1.244s
+sys	0m0.115s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+[PARSEC] Done.
+
+real	0m12.671s
+user	0m6.205s
+sys	0m0.000s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

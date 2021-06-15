@@ -1,0 +1,69 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+[PARSEC] Run with amd64-linux.gcc binaries and input test started on Mon Feb 17 19:13:52 EST 2020.
+[PARSEC] Setting up run directory.
+in_5K.fluid
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/fluidanimate/inst/amd64-linux.gcc/bin/fluidanimate 1 1 in_5K.fluid out.fluid':
+[PARSEC] Benchmarks to run:  parsec.vips
+
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] Unpacking benchmark input 'test'.
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Loading file "in_5K.fluid"...
+Number of cells: 4725
+Grids steps over x, y, z: 0.00866667 0.00857143 0.00866667
+[PARSEC] [========== Running benchmark parsec.vips [1] ==========]
+Number of particles: 4800
+T10I4D100K_3.dat
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/freqmine/inst/amd64-linux.gcc/bin/freqmine T10I4D100K_3.dat 1':
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] Deleting old run directory.
+Saving file "out.fluid"...
+
+real	0m0.042s
+user	0m0.017s
+sys	0m0.008s
+[PARSEC] [----------    End of output    ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+[PARSEC] Setting up run directory.
+[PARSEC] Done.
+transaction number is 3
+32
+192
+736
+2100
+4676
+8246
+11568
+12916
+11450
+8009
+4368
+1820
+560
+120
+16
+1
+the data preparation cost 0.011974 seconds, the FPgrowth cost 0.006256 seconds
+
+real	0m0.026s
+user	0m0.014s
+sys	0m0.004s
+
+real	0m0.084s
+user	0m0.063s
+sys	0m0.004s
+[PARSEC] Unpacking benchmark input 'test'.
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+barbados_256x288.v
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/vips/inst/amd64-linux.gcc/bin/vips im_benchmark barbados_256x288.v output.v':
+[PARSEC] Done.
+[PARSEC] [---------- Beginning of output ----------]
+
+real	0m0.071s
+user	0m0.066s
+sys	0m0.004s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

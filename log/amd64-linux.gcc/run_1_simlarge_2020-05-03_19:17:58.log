@@ -1,0 +1,63 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+[PARSEC] Run with amd64-linux.gcc binaries and input simlarge started on Sun May 3 19:17:58 EDT 2020.
+[PARSEC] Run with amd64-linux.gcc binaries and input simlarge started on Sun May 3 19:17:58 EDT 2020.
+[PARSEC] Benchmarks to run:  parsec.freqmine
+[PARSEC] Benchmarks to run:  parsec.blackscholes
+
+
+[PARSEC] [========== Running benchmark parsec.freqmine [1] ==========]
+[PARSEC] [========== Running benchmark parsec.blackscholes [1] ==========]
+[PARSEC] Deleting old run directory.
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'simlarge'.
+[PARSEC] Unpacking benchmark input 'simlarge'.
+in_64K.txt
+kosarak_990k.dat
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/blackscholes/inst/amd64-linux.gcc/bin/blackscholes 1 in_64K.txt prices.txt':
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/freqmine/inst/amd64-linux.gcc/bin/freqmine kosarak_990k.dat 790':
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Num of Options: 65536
+Num of Runs: 100
+Size of data: 2621440
+
+real	0m0.764s
+user	0m0.763s
+sys	0m0.001s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+transaction number is 990002
+1548
+13483
+46649
+131381
+415489
+1239344
+2985564
+5696308
+8709873
+10789491
+10902648
+9011183
+6094236
+3374161
+1530954
+564958
+165173
+36535
+5727
+578
+33
+1
+the data preparation cost 0.334132 seconds, the FPgrowth cost 5.358702 seconds
+
+real	0m5.696s
+user	0m5.578s
+sys	0m0.116s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

@@ -1,0 +1,51 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+[PARSEC] Setting up run directory.
+[PARSEC] Run with amd64-linux.gcc binaries and input test started on Mon Feb 17 18:58:04 EST 2020.
+[PARSEC] Setting up run directory.
+[PARSEC] Benchmarks to run:  parsec.streamcluster
+[PARSEC] Unpacking benchmark input 'test'.
+
+[PARSEC] [========== Running benchmark parsec.streamcluster [1] ==========]
+[PARSEC] Unpacking benchmark input 'test'.
+in_5K.fluid
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/fluidanimate/inst/amd64-linux.gcc/bin/fluidanimate 1 1 in_5K.fluid out.fluid':
+[PARSEC] Deleting old run directory.
+[PARSEC] [---------- Beginning of output ----------]
+in_4.txt
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/blackscholes/inst/amd64-linux.gcc/bin/blackscholes 1 in_4.txt prices.txt':
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Loading file "in_5K.fluid"...
+[PARSEC] Setting up run directory.
+Number of cells: 4725
+Grids steps over x, y, z: 0.00866667 0.00857143 0.00866667
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] No archive for input 'test' available, skipping input setup.
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Num of Options: 4
+Num of Runs: 100
+Size of data: 160
+
+real	0m0.004s
+user	0m0.001s
+sys	0m0.002s
+Number of particles: 4800
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/kernels/streamcluster/inst/amd64-linux.gcc/bin/streamcluster 2 5 1 10 10 5 none output.txt 1':
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] Done.
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+read 10 points
+
+real	0m0.005s
+user	0m0.001s
+sys	0m0.004s
+Saving file "out.fluid"...
+[PARSEC] [----------    End of output    ----------]
+
+real	0m0.038s
+user	0m0.029s
+sys	0m0.008s
+[PARSEC] Done.
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

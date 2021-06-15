@@ -1,0 +1,43 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+[PARSEC] Run with amd64-linux.gcc binaries and input simlarge started on Mon Feb 17 18:37:38 EST 2020.
+[PARSEC] Setting up run directory.
+[PARSEC] Benchmarks to run:  parsec.blackscholes
+
+[PARSEC] [========== Running benchmark parsec.blackscholes [1] ==========]
+[PARSEC] Unpacking benchmark input 'simlarge'.
+[PARSEC] Deleting old run directory.
+in_64K.txt
+[PARSEC] Setting up run directory.
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/blackscholes/inst/amd64-linux.gcc/bin/blackscholes 1 in_64K.txt prices.txt':
+[PARSEC] Unpacking benchmark input 'simlarge'.
+[PARSEC] [---------- Beginning of output ----------]
+in_64K.txt
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+ERROR: Unable to open file in_64K.txt.
+
+real	0m0.005s
+user	0m0.002s
+sys	0m0.000s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/blackscholes/inst/amd64-linux.gcc/bin/blackscholes 1 in_64K.txt prices.txt':
+[PARSEC] Done.
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Num of Options: 65536
+Num of Runs: 100
+Size of data: 2621440
+ERROR: Unable to open file prices.txt.
+
+real	0m1.046s
+user	0m0.914s
+sys	0m0.017s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+error opening output.txt
+
+real	0m16.736s
+user	0m14.136s
+sys	0m0.049s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

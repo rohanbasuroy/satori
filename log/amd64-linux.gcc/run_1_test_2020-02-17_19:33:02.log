@@ -1,0 +1,71 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Run with amd64-linux.gcc binaries and input test started on Mon Feb 17 19:33:02 EST 2020.
+[PARSEC] Run with amd64-linux.gcc binaries and input test started on Mon Feb 17 19:33:02 EST 2020.
+[PARSEC] Done.
+[PARSEC] Benchmarks to run:  parsec.fluidanimate
+[PARSEC] Benchmarks to run:  parsec.blackscholes
+transaction number is 3
+32
+192
+736
+2100
+4676
+8246
+11568
+12916
+11450
+8009
+4368
+1820
+560
+120
+16
+1
+the data preparation cost 0.008374 seconds, the FPgrowth cost 0.006948 seconds
+
+real	0m0.020s
+user	0m0.019s
+sys	0m0.001s
+
+
+[PARSEC] [========== Running benchmark parsec.fluidanimate [1] ==========]
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] [========== Running benchmark parsec.blackscholes [1] ==========]
+[PARSEC] Done.
+[PARSEC] Deleting old run directory.
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'test'.
+[PARSEC] Unpacking benchmark input 'test'.
+in_4.txt
+in_5K.fluid
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/blackscholes/inst/amd64-linux.gcc/bin/blackscholes 1 in_4.txt prices.txt':
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/fluidanimate/inst/amd64-linux.gcc/bin/fluidanimate 1 1 in_5K.fluid out.fluid':
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Loading file "in_5K.fluid"...
+Number of cells: 4725
+Grids steps over x, y, z: 0.00866667 0.00857143 0.00866667
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Num of Options: 4
+Num of Runs: 100
+Size of data: 160
+
+real	0m0.028s
+user	0m0.001s
+sys	0m0.004s
+Number of particles: 4800
+[PARSEC] [----------    End of output    ----------]
+Saving file "out.fluid"...
+
+real	0m0.042s
+user	0m0.027s
+sys	0m0.011s
+[PARSEC] Done.
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

@@ -1,0 +1,43 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+in_5K.fluid
+[PARSEC] Run with amd64-linux.gcc binaries and input test started on Mon Feb 17 19:17:15 EST 2020.
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/fluidanimate/inst/amd64-linux.gcc/bin/fluidanimate 1 1 in_5K.fluid out.fluid':
+[PARSEC] Benchmarks to run:  parsec.canneal
+
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] [========== Running benchmark parsec.canneal [1] ==========]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Loading file "in_5K.fluid"...
+Number of cells: 4725
+Grids steps over x, y, z: 0.00866667 0.00857143 0.00866667
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+Number of particles: 4800
+[PARSEC] Unpacking benchmark input 'test'.
+Saving file "out.fluid"...
+10.nets
+
+real	0m0.056s
+user	0m0.039s
+sys	0m0.012s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/kernels/canneal/inst/amd64-linux.gcc/bin/canneal 1 5 100 10.nets 1':
+[PARSEC] Done.
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Threadcount: 1
+5 swaps per temperature step
+start temperature: 100
+netlist filename: 10.nets
+number of temperature steps: 1
+locs created
+locs assigned
+netlist created. 10 elements.
+Final routing is: 132
+
+real	0m0.008s
+user	0m0.002s
+sys	0m0.002s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

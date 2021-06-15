@@ -1,0 +1,53 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+
+real	0m0.065s
+user	0m0.062s
+sys	0m0.004s
+[PARSEC] Unpacking benchmark input 'test'.
+[PARSEC] Run with amd64-linux.gcc binaries and input test started on Mon Feb 17 19:38:09 EST 2020.
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Benchmarks to run:  parsec.freqmine
+[PARSEC] Done.
+
+barbados_256x288.v
+[PARSEC] [========== Running benchmark parsec.freqmine [1] ==========]
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/vips/inst/amd64-linux.gcc/bin/vips im_benchmark barbados_256x288.v output.v':
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'test'.
+T10I4D100K_3.dat
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/freqmine/inst/amd64-linux.gcc/bin/freqmine T10I4D100K_3.dat 1':
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+
+real	0m0.070s
+user	0m0.057s
+sys	0m0.013s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+transaction number is 3
+32
+192
+736
+2100
+4676
+8246
+11568
+12916
+11450
+8009
+4368
+1820
+560
+120
+16
+1
+the data preparation cost 0.007939 seconds, the FPgrowth cost 0.029272 seconds
+
+real	0m0.044s
+user	0m0.017s
+sys	0m0.002s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

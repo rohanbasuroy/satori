@@ -1,0 +1,40 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+[PARSEC] No archive for input 'test' available, skipping input setup.
+[PARSEC] Run with amd64-linux.gcc binaries and input test started on Mon Feb 17 19:07:53 EST 2020.
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/swaptions/inst/amd64-linux.gcc/bin/swaptions -ns 1 -sm 5 -nt 1':
+[PARSEC] Benchmarks to run:  parsec.canneal
+[PARSEC] [---------- Beginning of output ----------]
+
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+[PARSEC] [========== Running benchmark parsec.canneal [1] ==========]
+Swaption 0: [SwaptionPrice: 22.0700566558 StdError: -nan] 
+Number of Simulations: 5,  Number of threads: 1 Number of swaptions: 1
+
+real	0m0.010s
+user	0m0.004s
+sys	0m0.004s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Deleting old run directory.
+[PARSEC] Done.
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'test'.
+10.nets
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/kernels/canneal/inst/amd64-linux.gcc/bin/canneal 1 5 100 10.nets 1':
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Threadcount: 1
+5 swaps per temperature step
+start temperature: 100
+netlist filename: 10.nets
+number of temperature steps: 1
+locs created
+locs assigned
+netlist created. 10 elements.
+Final routing is: 132
+
+real	0m0.008s
+user	0m0.006s
+sys	0m0.001s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

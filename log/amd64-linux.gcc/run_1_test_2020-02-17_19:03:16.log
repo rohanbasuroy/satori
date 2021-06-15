@@ -1,0 +1,35 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+[PARSEC] Run with amd64-linux.gcc binaries and input test started on Mon Feb 17 19:03:16 EST 2020.
+Number of particles: 4800
+[PARSEC] Benchmarks to run:  parsec.swaptions
+
+[PARSEC] [========== Running benchmark parsec.swaptions [1] ==========]
+[PARSEC] Deleting old run directory.
+Saving file "out.fluid"...
+[PARSEC] Setting up run directory.
+
+real	0m0.047s
+user	0m0.031s
+sys	0m0.015s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] No archive for input 'test' available, skipping input setup.
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/swaptions/inst/amd64-linux.gcc/bin/swaptions -ns 1 -sm 5 -nt 1':
+[PARSEC] Done.
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Swaption 0: [SwaptionPrice: 22.0700566558 StdError: -nan] 
+Number of Simulations: 5,  Number of threads: 1 Number of swaptions: 1
+
+real	0m0.006s
+user	0m0.001s
+sys	0m0.005s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+/home/rohan/uforea/parsec-3.0/bin/parsecmgmt: line 1222: 23694 Aborted                 (core dumped) /home/rohan/uforea/parsec-3.0/pkgs/apps/fluidanimate/inst/amd64-linux.gcc/bin/fluidanimate 1 1 in_5K.fluid out.fluid
+
+real	0m0.305s
+user	0m0.026s
+sys	0m0.018s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

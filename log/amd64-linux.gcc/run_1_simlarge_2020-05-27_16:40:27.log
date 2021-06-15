@@ -1,0 +1,94 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+
+[PARSEC] Deleting old run directory.
+[PARSEC] Run with amd64-linux.gcc binaries and input simlarge started on Wed May 27 16:40:27 EDT 2020.
+[PARSEC] [========== Running benchmark parsec.streamcluster [1] ==========]
+[PARSEC] Benchmarks to run:  parsec.freqmine
+
+[PARSEC] Deleting old run directory.
+[PARSEC] [========== Running benchmark parsec.freqmine [1] ==========]
+[PARSEC] Setting up run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'simlarge'.
+[PARSEC] No archive for input 'simlarge' available, skipping input setup.
+[PARSEC] Unpacking benchmark input 'simlarge'.
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/kernels/streamcluster/inst/amd64-linux.gcc/bin/streamcluster 10 20 128 16384 16384 1000 none output.txt 1':
+kosarak_990k.dat
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+kosarak_990k.dat
+read 16384 points
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/freqmine/inst/amd64-linux.gcc/bin/freqmine kosarak_990k.dat 790':
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/freqmine/inst/amd64-linux.gcc/bin/freqmine kosarak_990k.dat 790':
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+
+real	0m6.267s
+user	0m6.257s
+sys	0m0.008s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+transaction number is 990002
+1548
+13483
+46649
+131381
+415489
+1239344
+2985564
+5696308
+8709873
+10789491
+10902648
+9011183
+6094236
+3374161
+1530954
+564958
+165173
+36535
+5727
+578
+33
+1
+the data preparation cost 0.299565 seconds, the FPgrowth cost 11.060669 seconds
+
+real	0m11.365s
+user	0m5.729s
+sys	0m0.100s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+transaction number is 990002
+1548
+13483
+46649
+131381
+415489
+1239344
+2985564
+5696308
+8709873
+10789491
+10902648
+9011183
+6094236
+3374161
+1530954
+564958
+165173
+36535
+5727
+578
+33
+1
+the data preparation cost 0.297561 seconds, the FPgrowth cost 11.151589 seconds
+
+real	0m11.453s
+user	0m5.845s
+sys	0m0.072s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

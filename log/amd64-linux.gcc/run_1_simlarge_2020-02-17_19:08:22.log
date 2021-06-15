@@ -1,0 +1,31 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+[PARSEC] Run with amd64-linux.gcc binaries and input simlarge started on Mon Feb 17 19:08:22 EST 2020.
+[PARSEC] Benchmarks to run:  parsec.vips
+
+locs assigned
+[PARSEC] [========== Running benchmark parsec.vips [1] ==========]
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'simlarge'.
+bigben_2662x5500.v
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/vips/inst/amd64-linux.gcc/bin/vips im_benchmark bigben_2662x5500.v output.v':
+[PARSEC] [---------- Beginning of output ----------]
+Just saw element: 100000
+Just saw element: 200000
+Just saw element: 300000
+Just saw element: 400000
+netlist created. 400000 elements.
+
+real	0m8.858s
+user	0m8.574s
+sys	0m0.380s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+Final routing is: 6.90232e+08
+
+real	0m10.762s
+user	0m10.506s
+sys	0m0.203s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

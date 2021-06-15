@@ -1,0 +1,35 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+[PARSEC] Run with amd64-linux.gcc binaries and input simlarge started on Mon Feb 17 19:21:30 EST 2020.
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+[PARSEC] Benchmarks to run:  parsec.fluidanimate
+
+[PARSEC] [========== Running benchmark parsec.fluidanimate [1] ==========]
+read 16384 points
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'simlarge'.
+in_300K.fluid
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/fluidanimate/inst/amd64-linux.gcc/bin/fluidanimate 1 5 in_300K.fluid out.fluid':
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Loading file "in_300K.fluid"...
+Number of cells: 135424
+Grids steps over x, y, z: 0.00282609 0.0028125 0.00282609
+Number of particles: 305809
+Saving file "out.fluid"...
+fluidanimate: pthreads.cpp:396: void SaveFile(const char*): Assertion `file' failed.
+/home/rohan/uforea/parsec-3.0/bin/parsecmgmt: line 1222: 16952 Aborted                 (core dumped) /home/rohan/uforea/parsec-3.0/pkgs/apps/fluidanimate/inst/amd64-linux.gcc/bin/fluidanimate 1 5 in_300K.fluid out.fluid
+
+real	0m3.691s
+user	0m3.048s
+sys	0m0.295s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+error opening output.txt
+
+real	0m21.162s
+user	0m21.046s
+sys	0m0.028s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

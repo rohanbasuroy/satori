@@ -1,0 +1,83 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+[PARSEC] Run with amd64-linux.gcc binaries and input simlarge started on Wed May 27 16:50:52 EDT 2020.
+[PARSEC] Benchmarks to run:  parsec.swaptions
+
+[PARSEC] [========== Running benchmark parsec.swaptions [1] ==========]
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] No archive for input 'simlarge' available, skipping input setup.
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/swaptions/inst/amd64-linux.gcc/bin/swaptions -ns 64 -sm 40000 -nt 1':
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Swaption 0: [SwaptionPrice: 6.9314285749 StdError: 0.0006454845] 
+Swaption 1: [SwaptionPrice: 3.2383242364 StdError: 0.0004432591] 
+Swaption 2: [SwaptionPrice: 0.8537440288 StdError: 0.0001655610] 
+Swaption 3: [SwaptionPrice: 6.4801318328 StdError: 0.0008471219] 
+Swaption 4: [SwaptionPrice: 79.7556682054 StdError: 0.0097931656] 
+Swaption 5: [SwaptionPrice: 6.8632233798 StdError: 0.0011583301] 
+Swaption 6: [SwaptionPrice: 81.2945622971 StdError: 0.0083819556] 
+Swaption 7: [SwaptionPrice: 3.0598211052 StdError: 0.0003098395] 
+Swaption 8: [SwaptionPrice: 112.3526903564 StdError: 0.0098669361] 
+Swaption 9: [SwaptionPrice: 3.0596821855 StdError: 0.0003092895] 
+Swaption 10: [SwaptionPrice: 12.0732462428 StdError: 0.0014443654] 
+Swaption 11: [SwaptionPrice: 24.0294965540 StdError: 0.0021561550] 
+Swaption 12: [SwaptionPrice: 96.6841363412 StdError: 0.0123833265] 
+Swaption 13: [SwaptionPrice: 1.1504061063 StdError: 0.0001949244] 
+Swaption 14: [SwaptionPrice: 9.2840380174 StdError: 0.0010668531] 
+Swaption 15: [SwaptionPrice: 9.6505238686 StdError: 0.0010254762] 
+Swaption 16: [SwaptionPrice: 22.3080169984 StdError: 0.0035100353] 
+Swaption 17: [SwaptionPrice: 191.6968718271 StdError: 0.0256842122] 
+Swaption 18: [SwaptionPrice: 1.7113728618 StdError: 0.0003903116] 
+Swaption 19: [SwaptionPrice: 122.3050944136 StdError: 0.0118341766] 
+Swaption 20: [SwaptionPrice: 1.6306047719 StdError: 0.0003111965] 
+Swaption 21: [SwaptionPrice: 3.4218746994 StdError: 0.0006155740] 
+Swaption 22: [SwaptionPrice: 0.0000208968 StdError: 0.0000025378] 
+Swaption 23: [SwaptionPrice: 20.6044469127 StdError: 0.0029043645] 
+Swaption 24: [SwaptionPrice: 60.5888530171 StdError: 0.0064789814] 
+Swaption 25: [SwaptionPrice: 23.2922729733 StdError: 0.0024691870] 
+Swaption 26: [SwaptionPrice: 197.3034623932 StdError: 0.0220962974] 
+Swaption 27: [SwaptionPrice: 86.7932857411 StdError: 0.0106320348] 
+Swaption 28: [SwaptionPrice: 5.7426607998 StdError: 0.0007436034] 
+Swaption 29: [SwaptionPrice: 2.6777001547 StdError: 0.0004892672] 
+Swaption 30: [SwaptionPrice: 59.0574771788 StdError: 0.0064806906] 
+Swaption 31: [SwaptionPrice: 23.8777625296 StdError: 0.0022129439] 
+Swaption 32: [SwaptionPrice: 46.0134105513 StdError: 0.0062316118] 
+Swaption 33: [SwaptionPrice: 30.4876110074 StdError: 0.0040811067] 
+Swaption 34: [SwaptionPrice: 61.7895053575 StdError: 0.0096623330] 
+Swaption 35: [SwaptionPrice: 10.2649835012 StdError: 0.0009574997] 
+Swaption 36: [SwaptionPrice: 8.3988786494 StdError: 0.0010026028] 
+Swaption 37: [SwaptionPrice: 0.4074978054 StdError: 0.0001289658] 
+Swaption 38: [SwaptionPrice: 0.0000000000 StdError: 0.0000000000] 
+Swaption 39: [SwaptionPrice: 5.9838265712 StdError: 0.0006328650] 
+Swaption 40: [SwaptionPrice: 8.8588182878 StdError: 0.0013055860] 
+Swaption 41: [SwaptionPrice: 3.8133023873 StdError: 0.0005386050] 
+Swaption 42: [SwaptionPrice: 94.8178464967 StdError: 0.0133220052] 
+Swaption 43: [SwaptionPrice: 140.7528490581 StdError: 0.0193037720] 
+Swaption 44: [SwaptionPrice: 16.3890000899 StdError: 0.0020039955] 
+Swaption 45: [SwaptionPrice: 61.4281448143 StdError: 0.0049442819] 
+Swaption 46: [SwaptionPrice: 38.9748976797 StdError: 0.0049343320] 
+Swaption 47: [SwaptionPrice: 26.3852061903 StdError: 0.0020911948] 
+Swaption 48: [SwaptionPrice: 188.6653881966 StdError: 0.0161612423] 
+Swaption 49: [SwaptionPrice: 5.5577776045 StdError: 0.0007675793] 
+Swaption 50: [SwaptionPrice: 9.5274060750 StdError: 0.0010152226] 
+Swaption 51: [SwaptionPrice: 1.2646132209 StdError: 0.0003101762] 
+Swaption 52: [SwaptionPrice: 190.9595295896 StdError: 0.0150451227] 
+Swaption 53: [SwaptionPrice: 44.1171082007 StdError: 0.0044461710] 
+Swaption 54: [SwaptionPrice: 38.5495964264 StdError: 0.0045561359] 
+Swaption 55: [SwaptionPrice: 8.7001891325 StdError: 0.0013515471] 
+Swaption 56: [SwaptionPrice: 12.4023018118 StdError: 0.0016557636] 
+Swaption 57: [SwaptionPrice: 2.0630757915 StdError: 0.0003057421] 
+Swaption 58: [SwaptionPrice: 10.4050212261 StdError: 0.0012590400] 
+Swaption 59: [SwaptionPrice: 0.0000000000 StdError: 0.0000000000] 
+Swaption 60: [SwaptionPrice: 150.4422218171 StdError: 0.0148914235] 
+Swaption 61: [SwaptionPrice: 1.0717006835 StdError: 0.0002777874] 
+Swaption 62: [SwaptionPrice: 0.3540130142 StdError: 0.0001415127] 
+Swaption 63: [SwaptionPrice: 96.6846977227 StdError: 0.0123788815] 
+Number of Simulations: 40000,  Number of threads: 1 Number of swaptions: 64
+
+real	0m5.127s
+user	0m5.122s
+sys	0m0.005s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

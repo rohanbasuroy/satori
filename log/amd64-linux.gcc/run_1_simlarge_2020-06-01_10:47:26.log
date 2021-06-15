@@ -1,0 +1,63 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 RUN LOGFILE ==========]
+
+[PARSEC] Run with amd64-linux.gcc binaries and input simlarge started on Mon Jun 1 10:47:26 EDT 2020.
+[PARSEC] Benchmarks to run:  parsec.canneal
+[PARSEC] Benchmarks to run:  parsec.vips
+[PARSEC] Run with amd64-linux.gcc binaries and input simlarge started on Mon Jun 1 10:47:26 EDT 2020.
+
+
+[PARSEC] Benchmarks to run:  parsec.vips
+[PARSEC] [========== Running benchmark parsec.canneal [1] ==========]
+[PARSEC] [========== Running benchmark parsec.vips [1] ==========]
+
+[PARSEC] [========== Running benchmark parsec.vips [1] ==========]
+[PARSEC] Deleting old run directory.
+[PARSEC] Deleting old run directory.
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'simlarge'.
+[PARSEC] Unpacking benchmark input 'simlarge'.
+[PARSEC] Unpacking benchmark input 'simlarge'.
+400000.nets
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/kernels/canneal/inst/amd64-linux.gcc/bin/canneal 1 15000 2000 400000.nets 128':
+bigben_2662x5500.v
+bigben_2662x5500.v
+[PARSEC] [---------- Beginning of output ----------]
+PARSEC Benchmark Suite Version 3.0-beta-20150206
+Threadcount: 1
+15000 swaps per temperature step
+start temperature: 2000
+netlist filename: 400000.nets
+number of temperature steps: 128
+locs created
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/vips/inst/amd64-linux.gcc/bin/vips im_benchmark bigben_2662x5500.v output.v':
+locs assigned
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] Running 'time /home/rohan/uforea/parsec-3.0/pkgs/apps/vips/inst/amd64-linux.gcc/bin/vips im_benchmark bigben_2662x5500.v output.v':
+[PARSEC] [---------- Beginning of output ----------]
+Just saw element: 100000
+Just saw element: 200000
+Just saw element: 300000
+Just saw element: 400000
+netlist created. 400000 elements.
+
+real	0m11.427s
+user	0m3.630s
+sys	0m0.121s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+
+real	0m11.446s
+user	0m3.646s
+sys	0m0.084s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+Final routing is: 6.90232e+08
+
+real	0m12.791s
+user	0m4.994s
+sys	0m0.045s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

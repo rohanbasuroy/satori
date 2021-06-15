@@ -1,0 +1,18 @@
+[PARSEC] [========== PARSEC 3.0-beta-20150206 BUILD LOGFILE ==========]
+
+[PARSEC] Build amd64-linux.gcc started on Wed Nov 13 16:21:48 EST 2019.
+[PARSEC] Packages to build:  parsec.blackscholes
+
+[PARSEC] [========== Building package parsec.blackscholes [1] ==========]
+[PARSEC] [---------- Analyzing package parsec.blackscholes ----------]
+[PARSEC] parsec.blackscholes does not depend on any other packages.
+[PARSEC] [---------- Building package parsec.blackscholes ----------]
+[PARSEC] Copying source code of package parsec.blackscholes.
+[PARSEC] Running 'env version=pthreads /usr/bin/make':
+rm -f blackscholes blackscholes.m4.cpp
+/usr/bin/m4 ./c.m4.pthreads blackscholes.c > blackscholes.m4.cpp
+/usr/bin/g++ -O3 -g -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=3.0-beta-20150206 -pthread -DENABLE_THREADS -DNCO=4   blackscholes.m4.cpp -L/usr/lib64 -L/usr/lib  -o blackscholes
+[PARSEC] Running 'env version=pthreads /usr/bin/make install':
+mkdir -p /home/rohan/uforea/parsec-3.0/pkgs/apps/blackscholes/inst/amd64-linux.gcc/bin
+cp -f blackscholes /home/rohan/uforea/parsec-3.0/pkgs/apps/blackscholes/inst/amd64-linux.gcc/bin/blackscholes
+[PARSEC] Done.
